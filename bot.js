@@ -67,7 +67,7 @@ client.load = command => {
   });
 };
 
-lient.on('message', msg => {
+client.on('message', msg => {
   console.log(`LOG: S: ${msg.guild.name} M: ${msg.content} Y: ${msg.author.tag}`);
   if (msg.author.id === ayarlar.id) return;
   if (msg.author.bot) return;
