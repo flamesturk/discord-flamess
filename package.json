@@ -1,12 +1,12 @@
 {
-  "name": "discordbotdersleri",
+  "name": "flamess",
   "version": "0.0.1",
   "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "node bot.js"
   },
-  "author": "Serhan",
+  "author": "flamess",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
