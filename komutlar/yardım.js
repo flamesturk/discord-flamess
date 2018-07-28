@@ -12,7 +12,7 @@ exports.run = (client, message) => {
     .setColor("RANDOM")
 	.setFooter('Flammes Yardım Menüsü')
     message.channel.send(embed)
-})
+}
 
 exports.conf = {
   enabled: true,
