@@ -29,7 +29,7 @@ fs.readdir('./komutlar/', (err, files) => {
 
 client.on('ready', () => {
   console.log(`BOT: ${client.user.username} adı ile giriş yaptı!`)
-  client.user.setGame('Flamess | https://discord.gg/Ymx5sJP')
+  client.user.setGame('fs!yardım | https://discord.gg/Ymx5sJP | Flamess')
 });
 
 client.reload = command => {
