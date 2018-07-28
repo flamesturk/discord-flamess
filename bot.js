@@ -90,6 +90,12 @@ client.on('message', msg => {
 	}
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === prefix + 'ping') {
+	  msg.reply(`Pingim: ${client.ping}`)
+	}
+});
+
 client.elevation = message => {
   if(!message.guild) {
 	return; }
