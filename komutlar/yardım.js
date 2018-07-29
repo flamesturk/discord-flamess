@@ -8,7 +8,7 @@ exports.run = (client, message) => {
 👉 **fs!kick - İstediginiz Kişiyi Kickler**
 👉 **fs!temizle - Sohbeti Temizler**
 👉 **fs!yardım - Yardım Menüsünü Gösterir.**
-👉 **fs!dmduyuru - Bot Herkese Özelden Mesaj Atar. Bu Komut Sadece <@398949644232687628> İçindir**`)
+ **Yeni Komutlar Gelicektir,İstek Komutlarınızı <@398949644232687628>e Bildiriniz.**`)
     .setColor("RANDOM")
 	.setFooter('Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP ')
     message.channel.send(embed)
