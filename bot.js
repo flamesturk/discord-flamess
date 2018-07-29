@@ -91,13 +91,13 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'davet') {
+  if (msg.content.toLowerCase() === prefix + 'botsunucu') {
 	  msg.reply('**https://discord.gg/Ymx5sJP**')
 	}
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sunucununbotu') {
+  if (msg.content.toLowerCase() === prefix + 'botdavet') {
 	  msg.reply('**https://discordapp.com/oauth2/authorize?client_id=471048549186928641&scope=bot&permissions=2146958591**')
 	}
 });
@@ -114,5 +114,4 @@ client.elevation = message => {
 };
 var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 });
-
 client.login(process.env.BOT_TOKEN);
