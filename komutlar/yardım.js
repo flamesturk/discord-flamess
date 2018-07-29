@@ -4,13 +4,13 @@ exports.run = (client, message) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle('Yardım Menüsü')
 	.addField('Komutlar', `* fs!ping - Botun Pingini Gösterir
-* fs!ban - Kişiyi Banlar
-* fs!kick - Kişiyi Kickler
-* fs!temizle - Sohbeti Temizler
-* fs!yardım - Yardım Menüsünü Gösterir
-* fs!dmduyuru - Bot Herkese Özelden Mesaj Atar. **Bu Komut Sadece <@398949644232687628> İçindir**`)
+- fs!ban - Kişiyi Banlar
+- fs!kick - Kişiyi Kickler
+- fs!temizle - Sohbeti Temizler
+- fs!yardım - Yardım Menüsünü Gösterir
+- fs!dmduyuru - Bot Herkese Özelden Mesaj Atar. **Bu Komut Sadece <@398949644232687628> İçindir**`)
     .setColor("RANDOM")
-	.setFooter('Flammes Yardım Menüsü')
+	.setFooter('Flamess Yardım Menüsü Discord Adresimiz : https://discord.gg/Ymx5sJP ')
     message.channel.send(embed)
 }
 
