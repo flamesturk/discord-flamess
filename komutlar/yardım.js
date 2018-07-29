@@ -29,7 +29,7 @@ exports.run = (client, message) => {
 
 ▶️ **fs!yardım - fs!y Yardım Menüsünü Gösterir.** 
 
-▶️ **fs!nsfw - +18 NSFW Resimleri Gönderir
+▶️ **fs!nsfw - +18 NSFW Resimleri Gönderir**
 
 ▶️ **fs!botdavet - Botu Size Davet Linkini Atar**
 
