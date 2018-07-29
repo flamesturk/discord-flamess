@@ -86,13 +86,19 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-	  msg.reply('**Aleyküm Selam Hg**')
+	  msg.reply('**Aleyküm Selam kardeşim. Allah`ın rahmeti ve bereketi üzerine olsun. :rose: **')
 	}
 });
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'davet') {
 	  msg.reply('**https://discord.gg/Ymx5sJP**')
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sunucununbotu') {
+	  msg.reply('**https://discordapp.com/oauth2/authorize?client_id=471048549186928641&scope=bot&permissions=2146958591**')
 	}
 });
 
