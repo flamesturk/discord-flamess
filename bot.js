@@ -32,6 +32,24 @@ client.on('ready', () => {
   client.user.setGame('fs!yardım | https://discord.gg/Ymx5sJP | Flamess')
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sa') {
+	  msg.reply('**Aleyküm Selam kardeşim. Allah`ın rahmeti ve bereketi üzerine olsun. :rose: **')
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === prefix + 'botsunucu') {
+	  msg.reply('**https://discord.gg/Ymx5sJP**')
+	}
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === prefix + 'botdavet') {
+	  msg.reply('**https://discordapp.com/oauth2/authorize?client_id=471048549186928641&scope=bot&permissions=2146958591**')
+	}
+});
+
 client.reload = command => {
   return new Promise((resolve, reject) => {
     try {
@@ -52,6 +70,7 @@ client.reload = command => {
   });
 };
 
+
 client.load = command => {
   return new Promise((resolve, reject) => {
     try {
@@ -66,7 +85,6 @@ client.load = command => {
     }
   });
 };
-
 
 client.unload = command => {
   return new Promise((resolve, reject) => {
@@ -84,25 +102,6 @@ client.unload = command => {
   });
 };
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-	  msg.reply('**Aleyküm Selam kardeşim. Allah`ın rahmeti ve bereketi üzerine olsun. :rose: **')
-	}
-});
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === prefix + 'botsunucu') {
-	  msg.reply('**https://discord.gg/Ymx5sJP**')
-	}
-});
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === prefix + 'botdavet') {
-	  msg.reply('**https://discordapp.com/oauth2/authorize?client_id=471048549186928641&scope=bot&permissions=2146958591**')
-	}
-});
-
-
 client.elevation = message => {
   if(!message.guild) {
 	return; }
@@ -112,6 +111,18 @@ client.elevation = message => {
   if (message.author.id === ayarlar.sahip) permlvl = 4;
   return permlvl;
 };
+
 var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
+// client.on('debug', e => {
+//   console.log(chalk.bgBlue.green(e.replace(regToken, 'that was redacted')));
+// });
+
+client.on('warn', e => {
+  console.log(chalk.bgYellow(e.replace(regToken, 'that was redacted')));
 });
+
+client.on('error', e => {
+  console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
+});
+
 client.login(process.env.BOT_TOKEN);
