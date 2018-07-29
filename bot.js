@@ -27,6 +27,10 @@ fs.readdir('./komutlar/', (err, files) => {
   });
 });
 
+client.on('guildCreate', guild => {
+  guild.owner.send('Beni Eklediğin İçin Teşekkürler | Komutlarıma **fs!yardım** Yazarak Bakabilirsiniz | Discord Sunucuma Gidmek İçin [Tikla!]( https://discord.gg/Ymx5sJP)')
+})
+
 client.on('ready', () => {
   console.log(`BOT: ${client.user.username} adı ile giriş yaptı!`)
   client.user.setGame('fs!yardım | https://discord.gg/Ymx5sJP | Flamess')
