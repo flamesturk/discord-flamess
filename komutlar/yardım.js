@@ -7,6 +7,7 @@ exports.run = (client, message) => {
 👉 **fs!ban - İstediginiz Kişiyi Banlar**.
 👉 **fs!kick - İstediginiz Kişiyi Kickler**
 👉 **fs!temizle - Sohbeti Temizler**
+👉 ** fs!avatarım - Profil Resminizi Gösterir. **
 👉 **fs!yardım - Yardım Menüsünü Gösterir.**
  **Yeni Komutlar Gelicektir,İstek Komutlarınızı <@398949644232687628>e Bildiriniz.**`)
     .setColor("RANDOM")
