@@ -86,9 +86,16 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-	  msg.reply('**Aleyküm Selam**')
+	  msg.reply('**Aleyküm Selam Hg**')
 	}
 });
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'davet') {
+	  msg.reply('**https://discord.gg/Ymx5sJP**')
+	}
+});
+
 
 client.elevation = message => {
   if(!message.guild) {
