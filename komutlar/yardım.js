@@ -7,15 +7,17 @@ exports.run = (client, message) => {
 
 ▶️  **fs!ban - İstediginiz Kişiyi Banlar**. ✅
 
+▶️  **fs!unban - İstediginiz Kişinin Banını Kaldırır** ✅
+
 ▶️  **fs!kick - İstediginiz Kişiyi Kickler** ✅
 
-▶️  **fs!temizle - Sohbeti Temizler** ✅
+▶️  **fs!temizle - Sohbeti Temizler**   ✅
 
 ▶️  **fs!avatarım - Profil Resminizi Gösterir.** ✅
 
 ▶️  **fs!servericon - Serverinizin Resminizi Gösterir.** ✅
 
-▶️  **fs!test** ✅
+▶️  **fs!sor - Bota Soru Sora Bilirsiniz.** ✅
 
 ▶️  **fs!yaz - İstediğiniz şeyi bota yazdırır.** ✅
 
