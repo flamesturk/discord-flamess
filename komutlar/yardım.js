@@ -4,6 +4,7 @@ exports.run = (client, message) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle('Yardım-Menüsü')
 	.addField('Komutlar', ` ▶️ **fs!ping - Botun Pingini Gösterir.** ✅
+
 ▶️ **fs!ban - İstediginiz Kişiyi Banlar**. ✅
 
 ▶️ **fs!kick - İstediginiz Kişiyi Kickler** ✅
