@@ -13,6 +13,8 @@ exports.run = (client, message) => {
 
 ▶️  **fs!avatarım - Profil Resminizi Gösterir.** ✅
 
+▶️  **fs!servericon - Serverinizin Resminizi Gösterir.** ✅
+
 ▶️  **fs!hesapla - Hesap Makinesi Belirtilen İşlemi yapar.** ✅
 
 ▶️  **fs!yardım - Yardım Menüsünü Gösterir.** ✅
