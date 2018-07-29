@@ -5,31 +5,33 @@ exports.run = (client, message) => {
 	.setTitle('Yardım-Menüsü')
 	.addField('Komutlar: ', ` ▶️  **fs!ping - Botun Pingini Gösterir.**      
 
-▶️  **fs!ban - İstediginiz Kişiyi Banlar**.      
+▶️ **fs!ban - İstediginiz Kişiyi Banlar**.      
 
-▶️  **fs!unban - İstediginiz Kişinin Banını Kaldırır.**    
+▶️ **fs!unban - İstediginiz Kişinin Banını Kaldırır.**    
 
-▶️  **fs!kick - İstediginiz Kişiyi Kickler.**           
+▶️ **fs!kick - İstediginiz Kişiyi Kickler.**           
 
-▶️  **fs!temizle - Sohbeti Temizler.**           
+▶️ **fs!temizle - Sohbeti Temizler.**           
 
-▶️  **fs!avatarım - Profil Resminizi Gösterir.**   
+▶️ **fs!avatarım - Profil Resminizi Gösterir.**   
 
-▶️  **fs!servericon - Serverinizin Resminizi Gösterir.**   
+▶️ **fs!servericon - Serverinizin Resminizi Gösterir.**   
 
-▶️  **fs!sor - Bota Soru Sora Bilirsiniz.** 
+▶️ **fs!sor - Bota Soru Sora Bilirsiniz.** 
 
-▶️  **fs!yaz - İstediğiniz şeyi bota yazdırır.** 
+▶️ **fs!yaz - İstediğiniz şeyi bota yazdırır.** 
 
-▶️  **fs!emojiyazı - Mesajınızı emoji haline getir** 
+▶️ **fs!emojiyazı - Mesajınızı emoji haline getir** 
 
-▶️  **fs!stresçarkı - Sizin için bir stres çarkı çevirir.** 
+▶️ **fs!stresçarkı - Sizin için bir stres çarkı çevirir.** 
 
-▶️  **fs!hesapla - Hesap Makinesi Belirtilen İşlemi yapar.** 
+▶️ **fs!hesapla - Hesap Makinesi Belirtilen İşlemi yapar.** 
 
-▶️  **fs!yardım - fs!y Yardım Menüsünü Gösterir.** 
+▶️ **fs!yardım - fs!y Yardım Menüsünü Gösterir.** 
 
 ▶️ **fs!botdavet - Botu Size Davet Linkini Atar**
+
+▶️ **fs!nsfw - +18 NSFW Resimleri Gönderir
 
 ▶️ **fs!botsunucu - Bot Sunucunun Davet Linkini Atar**
 
