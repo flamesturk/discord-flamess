@@ -29,7 +29,11 @@ exports.run = (client, message) => {
 
 ▶️  **fs!yardım - fs!y Yardım Menüsünü Gösterir.** 
 
-▶️  **Yeni Komutlar Gelicektir,İstek Komutlarınızı <@398949644232687628>e Bildiriniz. **`) 
+▶️ **fs!botdavet - Botu Size Davet Linkini Atar**
+
+▶️ **fs!botsunucu - Bot Sunucunun Davet Linkini Atar**
+
+▶️ Flamess Botun Sahipi: <@398949644232687628> | Detaylı Kodlayıcısı: <@428651826913738763>
     .setColor("RANDOM")
 	.setFooter('Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP ')
     message.channel.send(embed)
