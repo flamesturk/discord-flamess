@@ -15,6 +15,10 @@ exports.run = (client, message) => {
 
 ▶️  **fs!servericon - Serverinizin Resminizi Gösterir.** ✅
 
+▶️  **fs!test** ✅
+
+▶️  **fs!yaz - İstediğiniz şeyi bota yazdırır.** ✅
+
 ▶️  **fs!hesapla - Hesap Makinesi Belirtilen İşlemi yapar.** ✅
 
 ▶️  **fs!yardım - Yardım Menüsünü Gösterir.** ✅
