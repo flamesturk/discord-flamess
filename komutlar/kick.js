@@ -5,17 +5,17 @@ exports.run = (client, msg, args) => {
   .setColor(0xff7f00)
   .setTimestamp()
   .setAuthor(msg.author.username, msg.author.avatarURL)
-  .addField(':warning: Uyarı :warning:', '`kick` adlı komutu özel mesajlarda kullanamazsın.')
+  .addField('**:warning: Uyarı :warning:', '`kick` adlı komutu özel mesajlarda kullanamazsın.**')
   return msg.author.sendEmbed(ozelmesajuyari); }
   let guild = msg.guild
   let reason = args.slice(1).join(' ');
   let user = msg.mentions.users.first();
   let modlog = guild.channels.find('name', 'mod-log');
-  if (!modlog) return msg.reply('`Bak mod-log Kanalını Bulamıyom. Oluşturda Gel');
-  if (reason.length < 1) return msg.reply('Bu Kişi Ne Ne İçin Atiliyor. Sebebi Ne');
-  if (msg.mentions.users.size < 1) return msg.reply('Kimi Atadam Söyle Kendimi Kickleyecek Halim Yok :D').catch(console.error);
+  if (!modlog) return msg.reply('`** mod-log Kanalını Bulamıyom. Oluşturman Lazım !**');
+  if (reason.length < 1) return msg.reply('**Bu Kişiyi Neden Atıyım. Sebebi Ne**');
+  if (msg.mentions.users.size < 1) return msg.reply('**Kimi Atayım Söyle?**').catch(console.error);
 
-  if (!msg.guild.member(user).kickable) return msg.reply('Yetkilileri sunucudan atamam.');
+  if (!msg.guild.member(user).kickable) return msg.reply('**Yetkilileri sunucudan atamam xd**.');
   msg.guild.member(user).kick();
 
   const embed = new Discord.RichEmbed()
