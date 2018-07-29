@@ -21,6 +21,8 @@ exports.run = (client, message) => {
 
 ▶️  **fs!yaz - İstediğiniz şeyi bota yazdırır.** 
 
+▶️  **fs!emojiyazı - Mesajınızı emoji haline getir** 
+
 ▶️  **fs!hesapla - Hesap Makinesi Belirtilen İşlemi yapar.** 
 
 ▶️  **fs!yardım - Yardım Menüsünü Gösterir.** 
