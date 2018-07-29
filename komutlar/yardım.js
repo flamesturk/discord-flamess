@@ -9,7 +9,9 @@ exports.run = (client, message) => {
 
 ▶️ **fs!unban - İstediginiz Kişinin Banını Kaldırır.**    
 
-▶️ **fs!kick - İstediginiz Kişiyi Kickler.**           
+▶️ **fs!kick - İstediginiz Kişiyi Kickler.**   
+
+▶️ **fs!uyar - İstediginiz Kişiyi Uyarır.**          
 
 ▶️ **fs!temizle - Sohbeti Temizler.**           
 
@@ -35,7 +37,7 @@ exports.run = (client, message) => {
 
 ▶️ **fs!botsunucu - Bot Sunucunun Davet Linkini Atar**
 
-▶️ **Flamess Botun Sahipi: <@398949644232687628> | Detaylı Kodlayıcısı: <@428651826913738763>**`)
+▶️ **Flamess Botun Sahibi: <@398949644232687628> | Kodlayıcısı: <@428651826913738763>**`)
     .setColor("RANDOM")
 	.setFooter('Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP ')
     message.channel.send(embed)
