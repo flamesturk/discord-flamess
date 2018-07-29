@@ -25,7 +25,7 @@ exports.run = (client, message) => {
 
 ▶️  **fs!hesapla - Hesap Makinesi Belirtilen İşlemi yapar.** 
 
-▶️  **fs!yardım - Yardım Menüsünü Gösterir.** 
+▶️  **fs!yardım - fs!y Yardım Menüsünü Gösterir.** 
 
 ▶️  **Yeni Komutlar Gelicektir,İstek Komutlarınızı <@398949644232687628>e Bildiriniz. **`) 
     .setColor("RANDOM")
