@@ -33,7 +33,7 @@ exports.run = (client, message) => {
 
 ▶️ **fs!botdavet - Botu Size Davet Linkini Atar**
 
-▶️ **fs!botsunucu - **Bot Sunucunun Davet Linkini Atar**
+▶️ **fs!botsunucu - Bot Sunucunun Davet Linkini Atar**
 
 ▶️ **Flamess Botun Sahipi: <@398949644232687628> | Detaylı Kodlayıcısı: <@428651826913738763>**`)
     .setColor("RANDOM")
