@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 exports.run = (client, message) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle('Yardım Menüsü')
-	.addField('Komutlar', `* fs!ping - Botun Pingini Gösterir
+	.addField('Komutlar', ` -  fs!ping - Botun Pingini Gösteri
 - fs!ban - Kişiyi Banlar
 - fs!kick - Kişiyi Kickler
 - fs!temizle - Sohbeti Temizler
