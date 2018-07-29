@@ -23,6 +23,8 @@ exports.run = (client, message) => {
 
 ▶️  **fs!emojiyazı - Mesajınızı emoji haline getir** 
 
+▶️  **fs!stresçarkı - Sizin için bir stres çarkı çevirir.** 
+
 ▶️  **fs!hesapla - Hesap Makinesi Belirtilen İşlemi yapar.** 
 
 ▶️  **fs!yardım - fs!y Yardım Menüsünü Gösterir.** 
