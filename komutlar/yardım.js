@@ -5,8 +5,8 @@ var prefix = ayarlar.prefix;
 
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
-	.setTitle('Flamess - Yardım-Menüsü')
-	.addField(' Komutlar: ', ` **fs!ping** - Botun Pingini Gösterir.      
+	.setTitle('𝐅𝐥𝐚𝐦𝐞𝐬𝐬 - 𝐘𝐚𝐫𝐝ı𝐦-𝐌𝐞𝐧𝐮̈𝐬𝐮̈')
+	.addField(' 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫 : ', ` **fs!ping** - Botun Pingini Gösterir.      
 **fs!ban** - İstediginiz Kişiyi Banlar.     
 **fs!unban** - İstediginiz Kişinin Banını Kaldırır.    
 **fs!kick** - İstediginiz Kişiyi Kickler.  
@@ -31,7 +31,7 @@ exports.run = (client, message,) => {
 
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
-	.setTitle('Flamess - Yardım-Menüsü')
+	.setTitle('Flamess - Yardım-Menüsü2')
 	.addField(' Komutlar2: ', ` **fs!ping** - Botun Pingini Gösterir.      
 **fs!ban** - İstediginiz Kişiyi Banlar.     
 **fs!unban** - İstediginiz Kişinin Banını Kaldırır.    
