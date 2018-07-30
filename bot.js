@@ -33,7 +33,7 @@ client.on('guildCreate', guild => {
 
 client.on('ready', () => {
   client.user.setStatus("PLAYING"); 
-  client.user.setActivity('fs!yardım|fs!botdavet|https://discord.gg/Ymx5sJP', { type: "PLAYING"}); 
+  client.user.setActivity('fs!yardım | fs!botdavet | fs!botsunucu', { type: "PLAYING"}); 
 })
 
 client.on('message', msg => {
