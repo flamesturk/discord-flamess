@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     .setAuthor('')
     .setColor(3447003)
     .setDescription(`** ${mesaj} ` + message.author.username + ' Sana El Hareketi Çekti!**')
-	.setImage(`https://galeri14.uludagsozluk.com/885/jahrein_1118356.gif`)
+	.setImage(`http://78.media.tumblr.com/tumblr_m2jivqzZXG1ro330po1_500.gif`)
     return message.channel.sendEmbed(embed);
 };
 
