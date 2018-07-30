@@ -31,6 +31,6 @@ exports.conf = {
 
 exports.help = {
   name: 'sor', 
-  description: 'Sihirli 8ball sorularınızı cevaplar',
+  description: 'Sihirli Sor sorularınızı cevaplar',
   usage: 'sor <soru>'
 };
