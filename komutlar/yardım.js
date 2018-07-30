@@ -3,8 +3,8 @@ const Discord = require('discord.js')
 exports.run = (client, message) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle('Yardım-Menüsü')
-	.addField('Komutlar: ', ` ▶️  **fs!ping - Botun Pingini Gösterir.**      
-➡️ **fs!ban - İstediginiz Kişiyi Banlar**.      
+	.addField('Komutlar: ', ` ⚫️**fs!ping - Botun Pingini Gösterir.**      
+⚫️ **fs!ban - İstediginiz Kişiyi Banlar**.      
 ➡️ **fs!unban - İstediginiz Kişinin Banını Kaldırır.**    
 ➡️ **fs!kick - İstediginiz Kişiyi Kickler.**   
 ➡️ **fs!uyar - İstediginiz Kişiyi Uyarır.**          
