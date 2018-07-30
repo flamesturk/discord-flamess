@@ -23,7 +23,7 @@ exports.run = (client, message,) => {
 ● **fs!yaz** - İstediğiniz şeyi bota yazdırır.
 ● **fs!sor** - Bota Soru Sora Bilirsiniz. 
 ● **fs!avatarım** - Profil Resminizi Gösterir.   
-● **fs!servericon** - `Serverinizin Resminizi Gösterir`.
+● **fs!servericon** - Serverinizin Resminizi Gösterir.
  `)
     .setColor("BLACK")
 	.setFooter(' `Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP` ')
