@@ -24,7 +24,6 @@ exports.run = (client, message) => {
     .setColor("BLACK")
 	.setFooter('Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP ')
     message.channel.send(embed)
-.addField(' Komutlar2: ', ` sa `)
 }
 
 exports.conf = {
