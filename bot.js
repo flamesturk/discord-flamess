@@ -32,9 +32,9 @@ client.on('guildCreate', guild => {
 })
 
 client.on('ready', () => {
-  console.log(`BOT: ${client.user.username} adı ile giriş yaptı!`)
-  client.user.setGame('fs!yardım | https://discord.gg/Ymx5sJP | Flamess')
-});
+  client.user.setStatus("PLAYING"); 
+  client.user.setActivity('fs!yardım|fs!botdavet|https://discord.gg/Ymx5sJP', { type: "PLAYING"}); 
+})
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
