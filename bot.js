@@ -37,7 +37,7 @@ client.on('ready', () => {
 })
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {)
+  if (msg.content.toLowerCase() === 'sa') {
 	  msg.channel.send("", {embed: {
               color: 0xff7f00,
               title: `Aleyküm Selam`,
