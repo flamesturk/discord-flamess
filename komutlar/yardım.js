@@ -14,8 +14,7 @@ exports.run = (client, message,) => {
 ● **fs!temizle** - Sohbeti Temizler.          
 ● **fs!yardım** - fs!y Yardım Menüsünü Gösterir. 
 ● **fs!botdavet** - Botu Size Davet Linkini Atar.
-● **fs!botsunucu** - Bot Sunucunun Davet Linkini Atar.
-● **Flamess Botun Sahibi Owner: <@398949644232687628> | Developer: <@428651826913738763>**`)
+● **fs!botsunucu** - Bot Sunucunun Davet Linkini Atar.`)
 .addField(' ● 𝐄𝐠𝐥𝐞𝐧𝐜𝐞-𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫ı ● : ', ` **fs!stresçarkı** - Sizin için bir stres çarkı çevirir.
 ● **fs!emojiyazı** - Mesajınızı emoji haline getir.
 ● **fs!nsfw** - +18 NSFW - Sapik Resimleri Gösteriri.
@@ -24,9 +23,10 @@ exports.run = (client, message,) => {
 ● **fs!sor** - Bota Soru Sora Bilirsiniz. 
 ● **fs!avatarım** - Profil Resminizi Gösterir.   
 ● **fs!servericon** - Serverinizin Resminizi Gösterir.
+**Flamess Botun Sahibi Owner: <@398949644232687628> | Developer: <@428651826913738763>**
  `)
     .setColor("BLACK")
-	.setFooter(' `Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP` ')
+	.setFooter(' -Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP-')
     message.channel.send(embed)
 	
 }
