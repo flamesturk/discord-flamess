@@ -6,7 +6,6 @@ var prefix = ayarlar.prefix;
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle('𝐅𝐥𝐚𝐦𝐞𝐬𝐬 𝐘𝐚𝐫𝐝ı𝐦 𝐌𝐞𝐧𝐮̈𝐬𝐮̈')
-        .setTitle('𝐅𝐥𝐚𝐦𝐞𝐬𝐬 𝐘𝐚𝐫𝐝ı𝐦 𝐌𝐞𝐧𝐮̈𝐬𝐮̈2')
 	.addField(' 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫 : ', ` **fs!ping** - Botun Pingini Gösterir.      
 **fs!ban** - İstediginiz Kişiyi Banlar.     
 **fs!unban** - İstediginiz Kişinin Banını Kaldırır.    
@@ -15,7 +14,8 @@ exports.run = (client, message,) => {
 **fs!temizle** - Sohbeti Temizler.       
 **fs!avatarım** - Profil Resminizi Gösterir.   
 **fs!servericon** - Serverinizin Resminizi Gösterir.  
-**fs!sor** - Bota Soru Sora Bilirsiniz. 
+**fs!sor** - Bota Soru Sora Bilirsiniz.
+.setTitle('𝐅𝐥𝐚𝐦𝐞𝐬𝐬 𝐘𝐚𝐫𝐝ı𝐦') 
 **fs!yaz** - İstediğiniz şeyi bota yazdırır.
 **fs!emojiyazı** - Mesajınızı emoji haline getir.
 **fs!stresçarkı** - Sizin için bir stres çarkı çevirir. 
