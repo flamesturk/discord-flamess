@@ -41,7 +41,6 @@ client.on('message', msg => {
 	  msg.channel.send("", {embed: {
               color: 0xff7f00,
               title: `Aleyküm Selam`,
-              description: `${msg.author} Hoşgeldin. `
 	}})}
 });
 
