@@ -17,6 +17,7 @@ exports.run = (client, message,) => {
 ● **fs!botsunucu** - Bot Sunucunun Davet Linkini Atar.`)
 .addField(' ● 𝐄𝐠𝐥𝐞𝐧𝐜𝐞-𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫ı ● : ', ` **fs!stresçarkı** - Sizin için bir stres çarkı çevirir.
 ● **fs!emojiyazı** - Mesajınızı emoji haline getir.
+● **fs!sigaraiç** - Bot Size Sigara İçirir. 
 ● **fs!söv** - İstediginiz Kişiye Söverim Bence Yapma.
 ● **fs!kullanıcıbilgim** - kbilgim Komutu kullanan kişi hakkında bilgi.
 ● **fs!sunucubilgi** Sunucu hakkında bilgi verir.
