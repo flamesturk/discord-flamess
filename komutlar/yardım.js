@@ -13,8 +13,8 @@ exports.run = (client, message,) => {
 ● **fs!uyar** - İstediginiz Kişiyi Uyarır.          
 ● **fs!temizle** - Sohbeti Temizler.          
 ● **fs!yardım** - fs!y Yardım Menüsünü Gösterir. 
-● **fs!botdavet** - Botu Size Davet Linkini Atar.
-● **fs!botsunucu** - Bot Sunucunun Davet Linkini Atar.`)
+● **fs!davet** - Botun Davet Linkini Atar.
+● **fs!botsunucu** - Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın.`)
 .addField(' ● 𝐄𝐠𝐥𝐞𝐧𝐜𝐞-𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫ı ● : ', ` ●**fs!stresçarkı** - Sizin için bir stres çarkı çevirir.
 ● **fs!emojiyazı** - Mesajınızı emoji haline getir.
 ● **fs!sigaraiç** - Bot Size Sigara İçirir. 
