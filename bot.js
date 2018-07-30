@@ -47,6 +47,26 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sea') {
+	  msg.channel.send("", {embed: {
+              color: 0xff1f1,
+	      title: `**AleykümSelam**`,
+              description: `${msg.author} **Hoşgeldin.**`,
+	}})}
+});
+
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'selam') {
+	  msg.channel.send("", {embed: {
+              color: 0xff1f1,
+	      title: `**AleykümSelam**`,
+              description: `${msg.author} **Hoşgeldin.**`,
+	}})}
+});
+
+
+client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'botsunucu') {
 	  msg.reply('**https://discord.gg/Ymx5sJP**')
 	}
