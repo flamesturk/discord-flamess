@@ -13,8 +13,6 @@ exports.run = (client, message) => {
 **fs!servericon** - Serverinizin Resminizi Gösterir.  
 **fs!sor** - Bota Soru Sora Bilirsiniz. 
 **fs!yaz** - İstediğiniz şeyi bota yazdırır.
-.addField(' 2.: ', `
- `)
 **fs!emojiyazı** - Mesajınızı emoji haline getir
 **fs!stresçarkı** - Sizin için bir stres çarkı çevirir. 
 **fs!hesapla** - Hesap Makinesi Belirtilen İşlemi yapar. 
