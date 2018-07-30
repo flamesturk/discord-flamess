@@ -42,6 +42,8 @@ client.on('message', msg => {
               color: 0xff7f00,
               title: `Aleyküm Selam`,
               description: `${msg.author} Aleyküm Selam`
+         msg.react('A')
+         msg.react('S')
 	}})}
 });
 
