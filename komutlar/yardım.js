@@ -12,7 +12,7 @@ exports.run = (client, message) => {
 **fs!avatarım** - Profil Resminizi Gösterir.   
 **fs!servericon** - Serverinizin Resminizi Gösterir.  
 **fs!sor** - Bota Soru Sora Bilirsiniz. 
-``fs!yaz`` - İstediğiniz şeyi bota yazdırır.
+**fs!yaz** - İstediğiniz şeyi bota yazdırır.
 **fs!emojiyazı** - Mesajınızı emoji haline getir
 **fs!stresçarkı** - Sizin için bir stres çarkı çevirir. 
 **fs!hesapla** - Hesap Makinesi Belirtilen İşlemi yapar. 
