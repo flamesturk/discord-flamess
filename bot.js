@@ -43,7 +43,7 @@ client.on('message', msg => {
 });
 
 const embed = new Discord.RichEmbed()
-.addField(`Aleyküm Selam`, `<@${msg.author}> Aleyküm Selam kardeşim. Allah`ın rahmeti ve bereketi üzerine olsun. :rose:`)
+.addField(`Aleyküm Selam`, `<@${msg.author}> Aleyküm Selam kardeşim. Allah'ın rahmeti ve bereketi üzerine olsun. :rose:`)
 .setColor("RANDOM")
 
 client.on('message', msg => {
