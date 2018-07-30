@@ -32,6 +32,6 @@ exports.conf = {
 
 exports.help = {
   name: 'kahkaha',
-  description: 'sigaraiç.',
+  description: 'Kahkaha Atarsınız.',
   usage: 'kahkaha'
 };
