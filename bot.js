@@ -39,7 +39,7 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
 	  msg.channel.send("", {embed: {
-              color: #1e174a,
+              color: 0xff7f10,
 	      title: `**AleykümSelam**`,
               description: `${msg.author} **Hoşgeldin.**`,
 	}})}
