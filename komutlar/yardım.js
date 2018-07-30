@@ -15,9 +15,6 @@ exports.run = (client, message,) => {
 **fs!avatarım** - Profil Resminizi Gösterir.   
 **fs!servericon** - Serverinizin Resminizi Gösterir.  
 **fs!sor** - Bota Soru Sora Bilirsiniz.
-
-.setTitle('𝐅𝐥𝐚𝐦𝐞𝐬𝐬 𝐘𝐚𝐫𝐝ı𝐦') 
-
 **fs!yaz** - İstediğiniz şeyi bota yazdırır.
 **fs!emojiyazı** - Mesajınızı emoji haline getir.
 **fs!stresçarkı** - Sizin için bir stres çarkı çevirir. 
@@ -27,6 +24,8 @@ exports.run = (client, message,) => {
 **fs!botdavet** - Botu Size Davet Linkini Atar.
 **fs!botsunucu** - Bot Sunucunun Davet Linkini Atar.
 **Flamess Botun Sahibi Owner: <@398949644232687628> | Developer: <@428651826913738763>**`)
+.addField(' 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫 2 : ', ` **KOMUTLAR 2**
+ `)
     .setColor("BLACK")
 	.setFooter('Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP ')
     message.channel.send(embed)
