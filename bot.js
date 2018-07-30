@@ -38,13 +38,13 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
+	  const embed = new Discord.RichEmbed()
+.addField('Aleyküm Selam', `<@${message.author}> Aleyküm Selam kardeşim. Allah'ın rahmeti ve bereketi üzerine olsun. :rose:`)
+.setColor("RANDOM")
 	  msg.reply(embed)
 	}
 });
 
-const embed = new Discord.RichEmbed()
-.addField('Aleyküm Selam', `<@${message.author}> Aleyküm Selam kardeşim. Allah'ın rahmeti ve bereketi üzerine olsun. :rose:`)
-.setColor("RANDOM")
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'botsunucu') {
