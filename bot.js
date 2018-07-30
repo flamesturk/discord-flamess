@@ -33,12 +33,7 @@ client.on('guildCreate', guild => {
 
 client.on('ready', () => {
   client.user.setStatus("dnd");
-  client.user.setActivity('Online', { type: "PLAYING"}); 
-})
-
-client.on('ready', () => {
-  client.user.setStatus("PLAYING"); 
-  client.user.setActivity('fs!yardım | fs!botdavet | fs!botsunucu', { type: "PLAYING"}); 
+  client.user.setActivity('fs!yardım 27 sunucu !', { type: "PLAYING"}); 
 })
 
 client.on('message', msg => {
