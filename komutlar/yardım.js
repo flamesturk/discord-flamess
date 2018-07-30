@@ -27,10 +27,6 @@ exports.run = (client, message,) => {
     .setColor("BLACK")
 	.setFooter('Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP ')
     message.channel.send(embed)
-}
-
-exports.run = (client, message,) => {
-	const embed = new Discord.RichEmbed()
 	.setTitle('Flamess - Yardım-Menüsü2')
 	.addField(' Komutlar2: ', ` **fs!ping** - Botun Pingini Gösterir.      
 **fs!ban** - İstediginiz Kişiyi Banlar.     
