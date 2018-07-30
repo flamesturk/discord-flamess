@@ -33,7 +33,7 @@ client.on('guildCreate', guild => {
 
 client.on('ready', () => {
   client.user.setStatus("online"); 
-  client.user.setGame("fs!yardım | fs!botdavet |fs!botsunucu | https://discord.gg/Ymx5sJP 28 Sunucu Sende Davet Et ", "https://www.twitch.tv/hotbrosflamess"); 
+  client.user.setGame("fs!yardım | fs!davet |fs!botsunucu | https://discord.gg/Ymx5sJP 28 Sunucu Sende Davet Et ", "https://www.twitch.tv/hotbrosflamess"); 
 })
 
 client.on('message', msg => {
