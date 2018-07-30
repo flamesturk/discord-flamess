@@ -37,12 +37,12 @@ client.on('ready', () => {
 })
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-	  const embed = new Discord.RichEmbed()
-.addField('Aleyküm Selam', `<@${msg.author}> Aleyküm Selam kardeşim.`)
-.setColor("RANDOM")
-	  msg.reply(embed)
-	}
+  if (msg.content.toLowerCase() === 'sa') {)
+	  msg.channel.send("", {embed: {
+              color: 0xff7f00,
+              title: `Aleyküm Selam`,
+              description: `${msg.author} Aleyküm Selam`
+	}}}
 });
 
 
