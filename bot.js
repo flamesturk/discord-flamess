@@ -39,7 +39,7 @@ client.on('message', msg => {
     msg.react('🇦')
             setTimeout(() => {
     }, 1500);
-    msg.reply('Aleyküm Selam!');
+    msg.reply('');
   }
 });
 
