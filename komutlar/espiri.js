@@ -10,16 +10,3 @@ if (message.content.toLowerCase() === prefix + "espriyap") {
     return message.channel.sendEmbed(embed);
 }
 });
-
-exports.conf = {
-  enabled: true,
-  guildOnly: true,
-  aliases: [ ' espiriyap ' ],
-  permLevel: 2
-};
-
-exports.help = {
-  name: 'espiri',
-  description: 'Espiri Yapar.',
-  usage: 'espiriyap'
-};
