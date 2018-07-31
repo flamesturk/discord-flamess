@@ -33,6 +33,18 @@ client.on('guildCreate', guild => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
+        setTimeout(() => {
+    }, 1000);//bekle
+    msg.react('🇸')
+    msg.react('🇦')
+            setTimeout(() => {
+    }, 1500);
+    msg.reply('Aleyküm Selam!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sa') {
 	  msg.channel.send("", {embed: {
               color: 0xff1f1,
 	      title: `**AleykümSelam**`,
@@ -58,18 +70,6 @@ client.on('message', msg => {
 	      title: `**AleykümSelam**`,
               description: `${msg.author} **Hoşgeldin.**`,
 	}})}
-});
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-        setTimeout(() => {
-    }, 1000);//bekle
-    msg.react('🇸')
-    msg.react('🇦')
-            setTimeout(() => {
-    }, 1500);
-    msg.reply('Aleyküm Selam!');
-  }
 });
 
 client.on('message', msg => {
