@@ -27,6 +27,20 @@ fs.readdir('./komutlar/', (err, files) => {
   });
 });
 
+client.on('message', async message => {
+const embed = new Discord.RichEmbed()
+            .setTitle("Notech istatistik")
+            .setDescription('')
+            .setThumbnail(`${client.user.avatarURL}`)
+            .setColor("RANDOM")
+            .addField("Sunucu Sayısı", client.guilds.size.toLocaleString(), true)
+            .addField("Kanal Sayısı", client.channels.size.toLocaleString(), true)
+            .addField("Kullanıcı Sayısı", client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString(), true)
+            .addField("Bellek Kullanımı", Math.round(process.memoryUsage().heapUsed / 1024 / 1024) + ` MB`, true)
+
+        return message.channel.send(embed)
+});
+
 client.on('guildCreate', guild => {
   guild.owner.send('Beni Eklediğin İçin Teşekkürler | Komutlarıma **fs!yardım** Yazarak Bakabilirsiniz | Discord Sunucuma Gidmek İçin [Tikla!]( https://discord.gg/Ymx5sJP)')
 })
