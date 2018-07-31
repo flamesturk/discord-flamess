@@ -43,6 +43,18 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'selam') {
+        setTimeout(() => {
+    }, 1000);//bekle
+    msg.react('🇸')
+    msg.react('🇦')
+            setTimeout(() => {
+    }, 1500);
+  }
+});
+
+
+client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
 	  msg.channel.send("", {embed: {
               color: 0xff1f1,
