@@ -56,6 +56,7 @@ client.on('message', message => {
     .then(user => {user.send({embed})})
   }
 });
+
 let prefix = "fs!";
 
 client.on('message', async message => {
