@@ -37,7 +37,7 @@ client.on('message', message => {
   let args = message.content.split(' ').slice(1);
 
   if (command === 'tavsiyeni-gönder' || command === 'tavsiye') {
-    let str = '<@IDniz>';//@silmeyin!
+    let str = '<@398949644232687628>';//@silmeyin!
     let id = str.replace(/[<@!>]/g, '');
     let mesaj = args.slice(0).join(' ');
     if (mesaj.length < 1) return message.reply(` ⚠ tavsiyeni yazmayı unuttun. ⚠ `);
@@ -67,8 +67,7 @@ const embed = new Discord.RichEmbed()
             .addField("Kanal Sayısı", client.channels.size.toLocaleString(), true)
             .addField("Kullanıcı Sayısı", client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString(), true)
             .addField("Bellek Kullanımı", Math.round(process.memoryUsage().heapUsed / 1024 / 1024) + ` MB`, true)
-
-        return message.channel.send(embed)
+         message.channel.send(embed)
 });
 
 client.on('guildCreate', guild => {
