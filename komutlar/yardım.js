@@ -10,8 +10,9 @@ exports.run = (client, message,) => {
  ● **fs!ban** - İstediginiz Kişiyi Banlar.     
 ● **fs!unban** - İstediginiz Kişinin Banını Kaldırır.    
 ● **fs!kick** - İstediginiz Kişiyi Kickler.  
-● **fs!uyar** - İstediginiz Kişiyi Uyarır.
-● **fs!rol-ver** -  İstediğiniz kişiyi istediğiniz rolü verir.         
+● **fs!uyar** - İstediğiginiz Kişiyi Uyarırsınız.
+● **fs!report** - İstediğiniz Kişiyi Reportlarsınız.
+● **fs!rol-ver** - İstediğiniz kişiyi istediğiniz rolü verir.         
 ● **fs!temizle** - Sohbeti Temizler.          
 ● **fs!yardım** - fs!y Yardım Menüsünü Gösterir. 
 ● **fs!yapımcım** - Botun Yapımcısını Gösterir.
@@ -38,7 +39,7 @@ exports.run = (client, message,) => {
 	
 }
 
-exports.conf = {
+exports.conf = { 
   enabled: true,
   guildOnly: false,
   aliases: ['h', 'halp', 'help', 'yardim','y','yardım'],
