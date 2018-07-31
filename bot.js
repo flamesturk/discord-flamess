@@ -4,7 +4,6 @@ const ayarlar = require('./ayarlar.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
-const  Jimp  =  gerektirir ( ' jimp ' );
 require('./util/eventLoader')(client);
 
 var prefix = ayarlar.prefix;
