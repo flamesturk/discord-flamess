@@ -27,6 +27,19 @@ fs.readdir('./komutlar/', (err, files) => {
   });
 });
 
+    client.on("message", message => {
+    const dmchannel = client.channels.find("name", "botlog");
+    if (message.channel.type === "dm") {
+        if (message.author.id === client.user.id) return;
+        dmchannel.sendMessage("", {embed: {
+                color: 3447003,
+                title: `Yazan: ${message.author.tag}`,
+                description: `${message.content}`
+              }})
+    }
+    if (message.channel.bot) return;
+});
+
 client.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
