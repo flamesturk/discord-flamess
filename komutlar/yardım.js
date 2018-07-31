@@ -18,7 +18,6 @@ exports.run = (client, message,) => {
 》● **fs!rol-ver** - İstediğiniz kişiyi istediğiniz rolü verir.         
 》● **fs!temizle** - Sohbeti Temizler.          
 》● **fs!yardım** - fs!y Yardım Menüsünü Gösterir. 
-》● **fs!çekiliş** - Çekiliş Yaparsınız.
 》● **fs!Özeldenyardım** Yakında Gelicek.
 》● **fs!botsunucu** - Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın.
 》● **fs!davet** - Botun Davet Linkini Atar.
@@ -38,6 +37,8 @@ exports.run = (client, message,) => {
 》● **fs!hesapla** - Hesap Makinesi Belirtilen İşlemi yapar.
 》● **fs!yaz** - İstediğiniz şeyi bota yazdırır. 
 》● **fs!sor** - Bota Soru Sora Bilirsiniz. 
+》● **fs!mcskin** - Minecrafttaki Skininizi Gösterir. 
+》● **fs!mcavatar** - Minecraft Kafanızı Gösterir.
 》● **fs!avatarım** - Profil Resminizi Gösterir.   
 》● **fs!servericon** - Serverinizin Resminizi Gösterir.
 **Flamess Botun Sahibi Owner: <@398949644232687628> | Developer: <@428651826913738763>**
