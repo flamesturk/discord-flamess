@@ -27,32 +27,6 @@ fs.readdir('./komutlar/', (err, files) => {
   });
 });
 
-client.on("message", async message => {
-    const args = message.content.substring(prefix.length).split(" ");
-    const command = args.shift().toLowerCase();
-   if (command === "mcavatar") {
-                  const embed = new Discord.RichEmbed()
-                      .setTitle(`**${args}** adlı kullanıcının avatarı:`)
-                      .setImage(`https://cravatar.eu/avatar/${args}/100.png`)
-                      .setFooter(`${message.author.tag} tarafından istendi.`, message.author.avatarURL)
-                      .setColor('RANDOM');
-                  message.channel.send(embed)
-   }
-});
-
-client.on("message", async message => {
-    const args = message.content.substring(prefix.length).split(" ");
-    const command = args.shift().toLowerCase();
-   if (command === "mcskin") {
-                       var embed = new Discord.RichEmbed()
-                      .setTitle(`**${args}** adlı kullanıcının skini:`)
-                      .setImage(`https://minotar.net/armor/body/${args}/300.png`)
-                      .setFooter(`${message.author.tag} tarafından istendi.`, message.author.avatarURL)
-                      .setColor('RANDOM');
-                  return message.channel.send(embed)
-   }
-});
-
 client.on("message", msg => {
 
     const kufur = ["discordapp", ".com", ".net", ".xyz", ".tk", "gulu", ".pw", ".io", ".me", ".gg", "www.", "https", "http", "gulubot", ".gl"];
