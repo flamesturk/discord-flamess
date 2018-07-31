@@ -16,8 +16,10 @@ console.log('>>Oynuyor kısmı başarıyla güncellendi.');
 console.log('Bot hazır ve giriş yaptı.');
 console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.channels.size + ` adet kanala, ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor!`);
 
-    var Games = ["fs!yardım》 fs!davet 《fs!botsunucu",
+    var Games = [
+        "fs!yardım》 fs!davet 《fs!botsunucu",
         "》Discord Sunucumuz https://discord.gg/Ymx5sJP《",
+        "》fs!yardım fs!davet ${client.guilds.size} Sunucuda《",        
         "》Beni Discorduna Davet Et fs!davet《",
         `》${prefix}yardım ${client.guilds.size} Sunucu fs!davet《`];
 
@@ -28,4 +30,4 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
         client.user.setGame(Games[random], "https://www.twitch.tv/hotbrosflamess");
         }, 2 * 2500);
 
-};
+}; 
