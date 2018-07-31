@@ -37,8 +37,6 @@ client.on('message', msg => {
     }, 1000);//bekle
     msg.react('🇸')
     msg.react('🇦')
-    msg.react('🇭')
-    msg.react('🇬')
             setTimeout(() => {
     }, 1500);
   }
