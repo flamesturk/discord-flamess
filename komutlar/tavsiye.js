@@ -30,3 +30,16 @@ client.on('message', message => {
     .then(user => {user.send({embed})})
   }
 });
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0
+};
+
+exports.help = {
+  name: 'tavsiye',
+  description: 'Tavsiyenizi Atabilirsiniz.',
+  usage: 'tavsiye'
+};
