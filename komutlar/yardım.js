@@ -10,19 +10,20 @@ exports.run = (client, message,) => {
  ● **fs!ban** - İstediginiz Kişiyi Banlar.     
 ● **fs!unban** - İstediginiz Kişinin Banını Kaldırır.    
 ● **fs!kick** - İstediginiz Kişiyi Kickler.  
-● **fs!uyar** - İstediginiz Kişiyi Uyarır.          
+● **fs!uyar** - İstediginiz Kişiyi Uyarır.
+● **fs!rol-ver** -  İstediğiniz kişiyi istediğiniz rolü verir.         
 ● **fs!temizle** - Sohbeti Temizler.          
 ● **fs!yardım** - fs!y Yardım Menüsünü Gösterir. 
 ● **fs!davet** - Botun Davet Linkini Atar.
 ● **fs!botsunucu** - Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın.`)
 .addField(' ● 𝐄𝐠𝐥𝐞𝐧𝐜𝐞-𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫ı ● : ', ` ●**fs!stresçarkı** - Sizin için bir stres çarkı çevirir.
-● **fs!emojiyazı** - Mesajınızı emoji haline getir.
+● **fs!emojiyazı** - Mesajınızı emoji haline getirir.
 ● **fs!sigaraiç** - Bot Size Sigara İçirir. 
 ● **fs!söv** - İstediginiz Kişiye Söverim Bence Yapma.
 ● **fs!nahçek** - İstediğiniz Kişiye Nah Çekersiniz.
 ● **fs!kullanıcıbilgim** - kbilgim Komutu kullanan kişi hakkında bilgi.
 ● **fs!sunucubilgi** Sunucu hakkında bilgi verir.
-● **fs!nsfw** - +18 NSFW - Sapik Resimleri Gösteriri.
+● **fs!nsfw** - +18 NSFW - Sapik Resimleri Gösteririr.
 ● **fs!hesapla** - Hesap Makinesi Belirtilen İşlemi yapar.
 ● **fs!yaz** - İstediğiniz şeyi bota yazdırır. 
 ● **fs!sor** - Bota Soru Sora Bilirsiniz. 
