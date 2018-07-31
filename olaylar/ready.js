@@ -36,4 +36,4 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
         client.user.setGame(Games[random], "https://www.twitch.tv/VegasBot");
         }, 2 * 2500);
 
-}
+};
