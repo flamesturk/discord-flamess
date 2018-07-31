@@ -56,8 +56,10 @@ client.on('message', message => {
     .then(user => {user.send({embed})})
   }
 });
+let prefix = "fs!";
 
 client.on('message', async message => {
+  if (message.content.toLowerCase() === prefix + 'istatistik') {
 const embed = new Discord.RichEmbed()
             .setTitle("Notech istatistik")
             .setDescription('')
@@ -68,6 +70,7 @@ const embed = new Discord.RichEmbed()
             .addField("Kullanıcı Sayısı", client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString(), true)
             .addField("Bellek Kullanımı", Math.round(process.memoryUsage().heapUsed / 1024 / 1024) + ` MB`, true)
          message.channel.send(embed)
+}
 });
 
 client.on('guildCreate', guild => {
