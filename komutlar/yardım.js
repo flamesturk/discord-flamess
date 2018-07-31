@@ -14,6 +14,7 @@ exports.run = (client, message,) => {
 ● **fs!rol-ver** - İstediğiniz kişiyi istediğiniz rolü verir.         
 ● **fs!temizle** - Sohbeti Temizler.          
 ● **fs!yardım** - fs!y Yardım Menüsünü Gösterir. 
+● **fs!bilgi** - Bot ile ilgili bilgi verir.
 ● **fs!yapımcım** - Botun Yapımcısını Gösterir.
 ● **fs!davet** - Botun Davet Linkini Atar.
 ● **fs!botsunucu** - Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın.`) 	
