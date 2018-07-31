@@ -57,8 +57,6 @@ client.on('message', message => {
   }
 });
 
-let prefix = "fs!";
-
 client.on('message', async message => {
   if (message.content.toLowerCase() === prefix + 'istatistik') {
 const embed = new Discord.RichEmbed()
