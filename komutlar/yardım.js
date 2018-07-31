@@ -11,7 +11,6 @@ exports.run = (client, message,) => {
 ● **fs!unban** - İstediginiz Kişinin Banını Kaldırır.    
 ● **fs!kick** - İstediginiz Kişiyi Kickler.  
 ● **fs!uyar** - İstediğiginiz Kişiyi Uyarırsınız.
-● **fs!report** - İstediğiniz Kişiyi Reportlarsınız.
 ● **fs!rol-ver** - İstediğiniz kişiyi istediğiniz rolü verir.         
 ● **fs!temizle** - Sohbeti Temizler.          
 ● **fs!yardım** - fs!y Yardım Menüsünü Gösterir. 
