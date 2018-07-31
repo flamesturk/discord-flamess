@@ -17,11 +17,15 @@ console.log('Bot hazır ve giriş yaptı.');
 console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.channels.size + ` adet kanala, ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor!`);
 
     var Games = [
-        "fs!yardım》 fs!davet 《fs!botsunucu",
-        "》Discord Sunucumuz https://discord.gg/Ymx5sJP《",
-        "》fs!yardım fs!davet ${client.guilds.size} Sunucuda《",        
-        "》Beni Discorduna Davet Et fs!davet《",
-        `》${prefix}yardım ${client.guilds.size} Sunucu fs!davet《`];
+        "| fs!yardım》 fs!davet 《fs!botsunucu |",
+        "》Discordumuz https://discord.gg/Ymx5sJP《",
+        "| Sunucunuza Ekleyin 》fs!davet《",        
+        "》Yeni Komutlar Yakın Zamanda Eklenicektir.《",
+        "| fs!yardım 》fs!davet《 fs!botsunucu |",
+
+        `》${prefix}yardım ${client.guilds.size} Sunucu fs!davet《`
+        `》fs!davet ${client.guilds.size} Sunucu ${prefix}yardım《`
+];
 
     setInterval(function() {
 
