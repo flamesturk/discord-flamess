@@ -27,6 +27,12 @@ fs.readdir('./komutlar/', (err, files) => {
   });
 });
 
+client.on('message', msg => {
+  if (msg.content.startsWith(prefix + "çekiliş")) {
+    msg.channel.send(`Çekilişi Kazanan: ${msg.guild.members.random().displayName}`);
+    }
+    });
+
 client.on("message", msg => {
 
     const kufur = ["discordapp", ".com", ".net", ".xyz", ".tk", "gulu", ".pw", ".io", ".me", ".gg", "www.", "https", "http", "gulubot", ".gl"];
