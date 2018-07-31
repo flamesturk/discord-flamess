@@ -60,6 +60,17 @@ client.on('message', msg => {
 	}})}
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sa') {
+        setTimeout(() => {
+    }, 1000);//bekle
+    msg.react('🇸')
+    msg.react('🇦')
+            setTimeout(() => {
+    }, 1500);
+    msg.reply('Aleyküm Selam!');
+  }
+});
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'botsunucu') {
