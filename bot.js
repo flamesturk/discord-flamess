@@ -31,11 +31,6 @@ client.on('guildCreate', guild => {
   guild.owner.send('Beni Eklediğin İçin Teşekkürler | Komutlarıma **fs!yardım** Yazarak Bakabilirsiniz | Discord Sunucuma Gidmek İçin [Tikla!]( https://discord.gg/Ymx5sJP)')
 })
 
-client.on('ready', () => {
-  client.user.setStatus("online"); 
-  client.user.setGame("fs!yardım | fs!davet |fs!botsunucu | https://discord.gg/Ymx5sJP Sende Davet Et! ", "https://www.twitch.tv/hotbrosflamess"); 
-})
-
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
 	  msg.channel.send("", {embed: {
