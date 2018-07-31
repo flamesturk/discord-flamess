@@ -18,13 +18,13 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
 
     var Games = [
 
-        "vgs!yardım 》 Eklenecektir 《 Resmi Web Sitemiz.",
+        "fs!yardım 》 《 fs!botsunucu.",
         "Bot Davet Linki 》 Ekelenecektir 《",
         "》 Yep Yeni Özellikler 《",
-        "》 Vegas Bot Yapım Olarak Sizlere Hizmet Vermekteyiz. 《",
+        "》 Flamess Bot Yapım Olarak Sizlere Hizmet Vermekteyiz. 《",
 
 
-        `${prefix}yardım | ${client.guilds.size} sunucu | Yeni Komutlar Yakında`
+        `${prefix}yardım | ${client.guilds.size} Sunucuda | fs!davet `
 
 
     ];
@@ -33,7 +33,7 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
 
         var random = Math.floor(Math.random()*(Games.length-0+1)+0);
 
-        client.user.setGame(Games[random], "https://www.twitch.tv/VegasBot");
+        client.user.setGame(Games[random], "https://www.twitch.tv/hotbrosflamess");
         }, 2 * 2500);
 
 };
