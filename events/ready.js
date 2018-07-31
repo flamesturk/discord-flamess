@@ -24,7 +24,6 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
         "| fs!yardım 》fs!davet《 fs!botsunucu |",
 
         `》${prefix}yardım ${client.guilds.size} Sunucu fs!davet《`
-        `》fs!davet ${client.guilds.size} Sunucu ${prefix}yardım《`
 ];
 
     setInterval(function() {
