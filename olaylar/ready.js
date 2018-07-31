@@ -21,7 +21,6 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
         "》Discordumuz https://discord.gg/Ymx5sJP《",
         "| Sunucunuza Ekleyin 》fs!davet《",        
         "| fs!yardım 》fs!davet《 fs!botsunucu |",
-        
       `》${prefix}yardım ${client.guilds.size} Sunucu fs!davet《`
 ];
 
