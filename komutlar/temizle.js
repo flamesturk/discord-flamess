@@ -6,3 +6,15 @@ message.channel.bulkDelete(args[0]).then(() => {
   message.channel.send(` ${args[0]} Adet Mesajı Sildim. ✅`).then(msg => msg.delete(5000));
 })
 }
+exports.conf = {
+  enabled: true,
+  guildOnly: true,
+  aliases: ['temizle','clear','t'],
+  permLevel: 4
+};
+
+exports.help = {
+  name: 'temizle',
+  description: 'Belirlenen miktarda mesajı siler.',
+  usage: 'temizle <silinicek mesaj sayısı>'
+};
