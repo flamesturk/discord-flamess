@@ -20,6 +20,9 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
 
         "fs!yardım 》 fs!davet 《 Sunucunuza Davet etmek için.",
         "Bot Davet Linki 》 fs!davet 《 fs!yardım",
+        " 》 fs!davet 《 fs!yardım",
+        "Bot Davet》 fs!davet 《 fs!yardım",
+        "Bot Davet Linki 》 fs!davet 《 fs!yardım",
         "》Discordumuz : https://discord.gg/Ymx5sJP 《",
         "》 fs!davet | fs!yardım 《",
 
@@ -28,9 +31,9 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
 
     setInterval(function() {
 
-        var random = Math.floor(Math.random()*(Games.length-0+1)+0);
+        var random = Math.floor(Math.random()*(Games.length-0+2)+0);
 
         client.user.setGame(Games[random], "https://www.twitch.tv/hotbrosflamess");
-        }, 5 * 2500);
+        }, 2 * 5000);
 
 };
