@@ -15,17 +15,16 @@ exports.run = (client, message,) => {
 	    
  fs!kick [Sebebi]  [@kişi] - İstediginiz Kişiyi Kickler. Sunucudan Atar. 
 
- fs!kutuiciyaz [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.
+fs!kutuiciyaz [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.
 
- Botun Bilgisini Verir.`)
-.addField('》fs!ses-kanal-aç《 ',`
-  [kanalın ismi] Bir ses kanalı açar.`)
-.addField('》fs!yazı-kanal-aç《 ',`
- [kanalın ismi] Bir yazı kanalı açar.`)
-.addField('》fs!rol-ver《 ',`
-[@kime vericeginiz] [@hangirol] Herkese bu rolden @bahsetme yetkisini tanı olmalı İstediğiniz kişiyi istediğiniz rolü verir. `)  
-.addField('》fs!temizle《 ',`   
-[sayı belirtin] Sohbeti Temizler.`)
+fs!istatistik Botun Bilgisini Verir.
+
+fs!ses-kanal-aç [kanalın ismi] Bir ses kanalı açar.
+
+fs!yazı-kanal-aç [kanalın ismi] Bir yazı kanalı açar.
+
+fs!rol-ver [@kime vericeginiz] [@hangirol] Herkese bu rolden @bahsetme yetkisini tanı olmalı İstediğiniz kişiyi istediğiniz rolü verir.  
+fs!temizle [sayı belirtin] Sohbeti Temizler.`)
 .addField('》fs!yardım《 ',`          
 fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek. `)
 .addField('》fs!botsunucu《 ',` 
