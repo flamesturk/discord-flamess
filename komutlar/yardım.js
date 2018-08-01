@@ -23,34 +23,35 @@ fs!ses-kanal-aç [kanalın ismi] Bir ses kanalı açar.
 
 fs!yazı-kanal-aç [kanalın ismi] Bir yazı kanalı açar.
 
-fs!rol-ver [@kime vericeginiz] [@hangirol] Herkese bu rolden @bahsetme yetkisini tanı olmalı İstediğiniz kişiyi istediğiniz rolü verir.  
-fs!temizle [sayı belirtin] Sohbeti Temizler.`)
-.addField('》fs!yardım《 ',`          
-fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek. `)
-.addField('》fs!botsunucu《 ',` 
-Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın. `)
-.addField('》fs!davet《 ',`
-Botun Davet Linkini Atar Sunucunuza Ekleyebilirsiniz.`)
-.addField('》fs!tavsiye《 ',`
-Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim. `)
-.addField('》fs!yapımcım《 ',`
-Botun Yapımcısını Gösterir. `)
-.addField('》fs!stresçarkı《 ', ` 
-Sizin için bir stres çarkı çevirir.`)
-.addField('》fs!emojiyazı《 ', `
-Mesajınızı emoji haline getirir.`)
-.addField('》fs!sigaraiç veya fs!sigara《 ', `
-Bot Size Sigara İçirir.`)
-.addField('》fs!yumruk-at《 ', `
-Yumruk Atar gif.`)
-.addField('》fs!koş《 ', ` 
-Koşarsınız gif.`)
-.addField('》fs!herkesebendençay《 ', `
-Herkese Çay Verir gif.`)
-.addField('》fs!söv《 ', `
-[@kime sövem] İstediginiz Kişiye Söverim Bence Yapma.`)
-.addField('》fs!nahçek《 ', `
-[@kime çekem] İstediğiniz Kişiye Nah Çekersiniz.`)
+fs!rol-ver [@kime vericeginiz] [@hangirol] Herkese bu rolden @bahsetme yetkisini tanı olmalı İstediğiniz kişiyi istediğiniz rolü verir. 
+ 
+fs!temizle [sayı belirtin] Sohbeti Temizler.
+
+fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek.
+
+fs!botsunucu Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın. 
+
+fs!davet Botun Davet Linkini Atar Sunucunuza Ekleyebilirsiniz. 
+
+fs!tavsiye Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim.
+
+fs!yapımcım Botun Yapımcısını Gösterir. 
+
+fs!stresçarkı Sizin için bir stres çarkı çevirir.
+
+fs!emojiyazı Mesajınızı emoji haline getirir.
+
+fs!sigara ve fs!sigaraiç Bot Size Sigara İçirir.
+
+fs!yumruk-at Yumruk Atar gif.
+ 
+fs!koş Koşarsınız gif.
+
+fs!herkesebendençay Herkese Çay Verir gif.
+
+fs!söv İstediginiz kişiye Söver
+
+fs!nahçek [kime çekem]istediğiniz Kişiye Nah Çekersiniz.
 .addField('》fs!kullanıcıbilgim《 ', `
 kbilgim Komutu kullanan kişi hakkında bilgi.`)
 .addField('》fs!sunucubilgi《 ', `
