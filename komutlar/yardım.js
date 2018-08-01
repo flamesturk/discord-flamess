@@ -6,17 +6,17 @@ var prefix = ayarlar.prefix;
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
 	                                      .setTitle(' 》 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü 《')
-	.addField('》fs!Ping《 ', ` 
- Botun Pingini Gösterir. `) 
-        .addField('》fs!Ban《 ', `
- [Sebebi]  [@kişi] - İstediginiz Kişiyi Banlarsınız. `)   
-        .addField('》fs!Ban《 ', `   
- [Sebebi]  [@kişi] - İstediginiz Kişinin Banını Kaldırırsınız. `)	 
-        .addField('》fs!Kick《 ',`   
- [Sebebi]  [@kişi] - İstediginiz Kişiyi Kickler. Sunucudan Atar.  `)
-        .addField('》fs!kutuiciyaz《 ',`
- [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.`)
-        .addField('》fs!istatistik《 ',`
+	.addField('》Yetkili Komutları《 ', ` 
+ fs!ping Botun Pingini Gösterir. 
+
+ fs!ban [Sebebi]  [@kişi] - İstediginiz Kişiyi Banlarsınız.    
+
+ fs!unban [Sebebi]  [@kişi] - İstediginiz Kişinin Banını Kaldırırsınız. 
+	    
+ fs!kick [Sebebi]  [@kişi] - İstediginiz Kişiyi Kickler. Sunucudan Atar. 
+
+ fs!kutuiciyaz [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.
+
  Botun Bilgisini Verir.`)
 .addField('》fs!ses-kanal-aç《 ',`
   [kanalın ismi] Bir ses kanalı açar.`)
