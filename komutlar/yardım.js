@@ -71,8 +71,8 @@ Serverinizin Resminizi Gösterir.`)
 .addField('》fs!mcskin《', `
 [minecraft adınız] Minecarft Skininizi Gösterir.`)
 .addField('》fs!mcavatar《 ', `
-[minecraft adınız] Minecraft Avatarınızı Gösterir.
-**Flamess Botun Sahibi Owner: <@398949644232687628> | Developer: <@428651826913738763>**`)
+[minecraft adınız] Minecraft Avatarınızı Gösterir.`)
+**Flamess Botun Sahibi Owner: <@398949644232687628> | Developer: <@428651826913738763>**
 .setColor("RANDOM")
 .setFooter(' -Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP-')
     message.channel.send(embed)
