@@ -52,8 +52,8 @@ fs!herkesebendençay Herkese Çay Verir gif.
 fs!söv İstediginiz kişiye Söver
 
 fs!nahçek [kime çekem]istediğiniz Kişiye Nah Çekersiniz.
-.addField('》fs!kullanıcıbilgim《 ', `
-kbilgim Komutu kullanan kişi hakkında bilgi.`)
+
+fs!kullanıcıbilgim kbilgim Komutu kullanan kişi hakkında bilgi.`)
 .addField('》fs!sunucubilgi《 ', `
 Sunucu hakkında Tüm bilgileri verir.`)
 .addField('》fs!nsfw《 ', `
