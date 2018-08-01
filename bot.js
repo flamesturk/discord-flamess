@@ -52,26 +52,11 @@ client.on("message", async message => {
                   return message.channel.send(embed)
    }
 });
-client.on("message", msg => {
-
-    const kufur = ["discordapp", ".com", ".net", ".xyz", ".tk", "gulu", ".pw", ".io", ".me", ".gg", "www.", "https", "http", "gulubot", ".gl"];
-    if (kufur.some(word => msg.content.includes(word)) ) {
-        msg.delete()
-        msg.reply("**Bu Sunucuda Reklam yapma kardesim.**:wink: ")
-    }
-});
-
-client.on("message", msg => {
-    const kufur = ["amk", "aq", "orospu", "oruspu", "oç", "sikerim", "yarrak", "piç", "amq", "sik", "amcık", "çocu", "sex", "seks", "amına", "meme"];
-    if (kufur.some(word => msg.content.includes(word)) ) {
-        msg.delete()
-        msg.reply("**Saygılı Ol.**")
-    }
-});
 
 client.on('message', msg => {
 if (msg.content.toLowerCase() === prefix + "sigara") {
 msg.channel.send(':smoking: :cloud::cloud::cloud:')
+.then(nmsg => nmsg.edit(':smoking: :cloud::cloud::cloud:'))
 .then(nmsg => nmsg.edit(':smoking: :cloud::cloud::cloud:'))
 .then(nmsg => nmsg.edit(':smoking: :cloud::cloud:'))
 .then(nmsg => nmsg.edit(':smoking: :cloud::cloud:'))
