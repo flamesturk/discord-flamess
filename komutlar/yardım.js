@@ -5,9 +5,10 @@ var prefix = ayarlar.prefix;
 
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
-	.setTitle(' 》● 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü ●《')
-	.addField('》● Yetkili Komutları ●《: ', `
-1. fs!ping - Botun Pingini Gösterir.  
+	.setTitle(' 》 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü 《')
+	.addField('》Yetkili Komutları 《: ', `)
+        .addField('》Yetkili Komutları2 《: ',` `)
+1. fs!ping - Botun Pingini Gösterir. 
 2. fs!ban - İstediginiz Kişiyi Banlar.     
 3. fs!unban - İstediginiz Kişinin Banını Kaldırır.    
 4. fs!kick - İstediginiz Kişiyi Kickler.  
@@ -23,7 +24,7 @@ exports.run = (client, message,) => {
 14. fs!davet - Botun Davet Linkini Atar.
 15. fs!tavsiye - Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim. 
 16. fs!yapımcım - Botun Yapımcısını Gösterir.`) 	
-.addField('》● Eglence Komutları ●《: ', ` 
+.addField('》 Eglence Komutları 《 ', ` 
 17. fs!stresçarkı - Sizin için bir stres çarkı çevirir.
 18. fs!emojiyazı - Mesajınızı emoji haline getirir.
 19. fs!sigaraiç veya fs!sigara - Bot Size Sigara İçirir.
@@ -40,7 +41,7 @@ exports.run = (client, message,) => {
 30. fs!sor - Bota Soru Sora Bilirsiniz.
 31. fs!avatarım - Profil Resminizi Gösterir. 
 32. fs!servericon - Serverinizin Resminizi Gösterir.`)
-.addField('Minecraft Komutları', `
+.addField('》Minecraft Komutları', `
 33. fs!mcskin - Minecarft Skininizi Gösterir
 34. fs!mcavatar - Minecraft Avatarınızı Gösterir
 **Flamess Botun Sahibi Owner: <@398949644232687628> | Developer: <@428651826913738763>**`)
