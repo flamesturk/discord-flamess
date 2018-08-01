@@ -31,6 +31,6 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
         var random = Math.floor(Math.random()*(Games.length-0+2)+0);
 
         client.user.setGame(Games[random], "https://www.twitch.tv/hotbrosflamess");
-        }, 1 * 15000);
+        }, 3 * 2500);
 
 };
