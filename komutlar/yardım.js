@@ -6,27 +6,36 @@ var prefix = ayarlar.prefix;
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle(' 》 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü 《')
-	.addField('》fs!Ping《: ', ` 
+	.addField('》fs!Ping《 ', ` 
  Botun Pingini Gösterir. `) 
-        .addField('》fs!Ban《: ', `
- [Sebebi] [@kişi] - İstediginiz Kişiyi Banlarsınız. `)   
-        .addField('》fs!Ban《: ', `   
- [Sebebi] [@kişi] - İstediginiz Kişinin Banını Kaldırırsınız. `)	 
-        .addField('》fs!Kick《: ',`   
-  [Sebebi] [@kişi] - İstediginiz Kişiyi Kickler. Sunucudan Atar.  `)
-        .addField('》Kutu İçi Yazma《: ',`
- fs!kutuiciyaz - [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.`)
-        .addField('》fs!istatistik《: ',`
- fs!istatislik - Botun Bilgisini Verir.
- fs!ses-kanal-aç - Bir ses kanalı açar.
-9. fs!yazı-kanal-aç - Bir yazı kanalı açar.
-10. fs!rol-ver - İstediğiniz kişiyi istediğiniz rolü verir.         
-11. fs!temizle - Sohbeti Temizler.          
-12. fs!yardım - fs!y Yardım Menüsünü Gösterir. 
-13. fs!botsunucu** - Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın.
-14. fs!davet - Botun Davet Linkini Atar.
-15. fs!tavsiye - Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim. 
-16. fs!yapımcım - Botun Yapımcısını Gösterir. `)	
+        .addField('》fs!Ban《 ', `
+ [Sebebi]  [@kişi] - İstediginiz Kişiyi Banlarsınız. `)   
+        .addField('》fs!Ban《 ', `   
+ [Sebebi]  [@kişi] - İstediginiz Kişinin Banını Kaldırırsınız. `)	 
+        .addField('》fs!Kick《 ',`   
+ [Sebebi]  [@kişi] - İstediginiz Kişiyi Kickler. Sunucudan Atar.  `)
+        .addField('》fs!kutuiciyaz《 ',`
+ [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.`)
+        .addField('》fs!istatistik《 ',`
+ Botun Bilgisini Verir.`)
+.addField('》fs!ses-kanal-aç《 ',`
+  [kanalın ismi] Bir ses kanalı açar.`)
+.addField('》fs!yazı-kanal-aç《 ',`
+ [kanalın ismi] Bir yazı kanalı açar.`)
+.addField('》fs!rol-ver《 ',`
+[@kime vericeginiz] [@hangirol] Herkese bu rolden @bahsetme yetkisini tanı olmalı İstediğiniz kişiyi istediğiniz rolü verir. `)  
+.addField('》fs!temizle《 ',`   
+[sayı belirtin] Sohbeti Temizler.`)
+.addField('》fs!yardım《 ',`          
+fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek. `)
+.addField('》fs!botsunucu《 ',` 
+Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın. `)
+.addField('》fs!davet《 ',`
+Botun Davet Linkini Atar Sunucunuza Ekleyebilirsiniz.`)
+.addField('》fs!tavsiye《 ',`
+Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim. `)
+.addField('》fs!yapımcım《 ',`
+Botun Yapımcısını Gösterir. `)
 .addField('》 Eglence Komutları 《 ', ` 
 17. fs!stresçarkı - Sizin için bir stres çarkı çevirir.
 18. fs!emojiyazı - Mesajınızı emoji haline getirir.
