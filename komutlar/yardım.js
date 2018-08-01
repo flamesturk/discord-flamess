@@ -6,16 +6,19 @@ var prefix = ayarlar.prefix;
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle(' 》 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü 《')
-	.addField('》Yetkili Komutları 《: ', `) 
-        .addField('》Yetkili Komutları 2 《: ', 
-1. fs!ping - Botun Pingini Gösterir. 
-2. fs!ban - İstediginiz Kişiyi Banlar.     
-3. fs!unban - İstediginiz Kişinin Banını Kaldırır.    
-4. fs!kick - İstediginiz Kişiyi Kickler.  
-5. fs!uyar - İstediğiginiz Kişiyi Uyarırsınız.
-6. fs!duyuru - Güzel Bir Duyuru Görünümü Sağlar.
-7. fs!istatislik - Botun Bilgisini Verir.
-8. fs!ses-kanal-aç - Bir ses kanalı açar.
+	.addField('》fs!Ping《: ', ` 
+ Botun Pingini Gösterir. `) 
+        .addField('》fs!Ban《: ', `
+ [Sebebi] [@kişi] - İstediginiz Kişiyi Banlarsınız. `)   
+        .addField('》fs!Ban《: ', `   
+ [Sebebi] [@kişi] - İstediginiz Kişinin Banını Kaldırırsınız. `)	 
+        .addField('》fs!Kick《: ',`   
+  [Sebebi] [@kişi] - İstediginiz Kişiyi Kickler. Sunucudan Atar.  `)
+        .addField('》Kutu İçi Yazma《: ',`
+ fs!kutuiciyaz - [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.`)
+        .addField('》fs!istatistik《: ',`
+ fs!istatislik - Botun Bilgisini Verir.
+ fs!ses-kanal-aç - Bir ses kanalı açar.
 9. fs!yazı-kanal-aç - Bir yazı kanalı açar.
 10. fs!rol-ver - İstediğiniz kişiyi istediğiniz rolü verir.         
 11. fs!temizle - Sohbeti Temizler.          
@@ -23,7 +26,7 @@ exports.run = (client, message,) => {
 13. fs!botsunucu** - Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın.
 14. fs!davet - Botun Davet Linkini Atar.
 15. fs!tavsiye - Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim. 
-16. fs!yapımcım - Botun Yapımcısını Gösterir.`) 	
+16. fs!yapımcım - Botun Yapımcısını Gösterir. `)	
 .addField('》 Eglence Komutları 《 ', ` 
 17. fs!stresçarkı - Sizin için bir stres çarkı çevirir.
 18. fs!emojiyazı - Mesajınızı emoji haline getirir.
