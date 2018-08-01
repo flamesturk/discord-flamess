@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor(message.author.username + ` Agaa Beeğğ Sıkıntı Ne Yakğ Yak :pensive: !`)
+    .setAuthor(message.author.username + ` **Agaa Beeğğ Sıkıntı Ne Yakğ Yak!**`)
     .setColor(3447003)
     .setDescription('')
   .setImage(`https://images-ext-2.discordapp.net/external/0KlG_YOVx3HS5hxVpITZ4hYmtj-84d__YdVgfqzcSiQ/https/media.giphy.com/media/Josf4Dji2FyHS/giphy.gif?width=400&height=225`)
@@ -27,7 +27,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'kahkaha',
-  description: 'Kahkaha Atarsınız.',
-  usage: 'kahkaha'
+  name: 'cigara',
+  description: 'cigara içersiniz.',
+  usage: 'cigara'
 };
