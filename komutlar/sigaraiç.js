@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     .setColor(0xFF0000)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .addField('**Eğlence Komutları Özel Mesajlarda Kullanılamaz!**')
+    .addField('Eğlence Komutları Özel Mesajlarda Kullanılamaz!')
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
