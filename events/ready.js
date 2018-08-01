@@ -23,8 +23,7 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
         "》 Yep Yeni Özellikler Yakında Sizlerle! 《",
         "》 fs!davet | fs!yardım 《",
 
-
-        `${prefix}yardım | ${client.guilds.size} sunucu | fs!davet`
+        `${prefix}yardım | ${client.guilds.size} sunucuda | fs!davet`
     ];
 
     setInterval(function() {
@@ -32,6 +31,6 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
         var random = Math.floor(Math.random()*(Games.length-0+1)+0);
 
         client.user.setGame(Games[random], "https://www.twitch.tv/hotbrosflamess");
-        }, 2 * 5000);
+        }, 1 * 5000);
 
 };
