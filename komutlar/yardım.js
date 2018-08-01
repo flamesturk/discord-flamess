@@ -6,8 +6,8 @@ var prefix = ayarlar.prefix;
 exports.run = (client, message,) => {
 	const embed = new Discord.RichEmbed()
 	.setTitle(' 》 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü 《')
-	.addField('》Yetkili Komutları 《: ', `)
-        .addField('》Yetkili Komutları2 《: ',` `)
+        .setTitle(' 》 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü 2《')
+	.addField('》Yetkili Komutları 《: ', `) 
 1. fs!ping - Botun Pingini Gösterir. 
 2. fs!ban - İstediginiz Kişiyi Banlar.     
 3. fs!unban - İstediginiz Kişinin Banını Kaldırır.    
