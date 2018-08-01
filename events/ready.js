@@ -25,9 +25,7 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
 
 
         `${prefix}yardım | ${client.guilds.size} sunucu | fs!davet`
-        `Şu an ${client.channels.size} Adet kanala | ${client.guilds.size} sunucuya ve | ${client.guilds.reduce}((a, b) => a + b.memberCount, 0).toLocaleString() `
-
-
+        `Şu an ${client.channels.size} Adet kanala | ${client.guilds.size} sunucuya hizmet veriyor.| 
     ];
 
     setInterval(function() {
