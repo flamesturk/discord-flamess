@@ -27,19 +27,6 @@ fs.readdir('./komutlar/', (err, files) => {
   });
 });
 
- var oyun = [
-        "fs!yardım fs!davet",
-        "fs!davet Yeni özellikler",
-        "fs!yardım fs!botsunucu"
-    ];
-
-    setInterval(function() {
-
-        var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
-
-        client.user.setGame(oyun[random], "https://www.twitch.tv/hotbrosflamess");
-        }, 2 * 2500);
-
 client.on("message", async message => {
     const args = message.content.substring(prefix.length).split(" ");
     const command = args.shift().toLowerCase();
