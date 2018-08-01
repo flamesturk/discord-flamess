@@ -17,23 +17,17 @@ console.log('Bot hazır ve giriş yaptı.');
 console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.channels.size + ` adet kanala, ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor!`);
 
     var Games = [
-
-        "fs!yardım 》 fs!davet 《 Sunucunuza Davet etmek için.",
-        "Bot Davet Linki 》 fs!davet 《 fs!yardım",
-        " 》 fs!davet 《 fs!yardım",
-        "Bot Davet》 fs!davet 《 fs!yardım",
-        "Bot Davet Linki 》 fs!davet 《 fs!yardım",
-        "》Discordumuz : https://discord.gg/Ymx5sJP 《",
-        "》 fs!davet | fs!yardım 《",
-
-        `${prefix}yardım | ${client.guilds.size} sunucuda | fs!davet`
-    ];
+        "fs!yardım》 fs!davet 《fs!botsunucu",
+        "》Discord Sunucumuz https://discord.gg/Ymx5sJP《",
+        "》Beni Discorduna Davet Et fs!davet《",
+        `》${prefix}yardım|${client.guilds.size} Sunucuda|fs!davet《`
+     ];
 
     setInterval(function() {
 
         var random = Math.floor(Math.random()*(Games.length-0+1)+0);
 
         client.user.setGame(Games[random], "https://www.twitch.tv/hotbrosflamess");
-        }, 9 * 2500);
+        }, 2 * 2500);
 
 };
