@@ -27,7 +27,11 @@ fs!rol-ver [@kime vericeginiz] [@hangirol] Herkese bu rolden @bahsetme yetkisini
  
 fs!temizle [sayı belirtin] Sohbeti Temizler.
 
-fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek.
+fs!kullanıcıbilgim kbilgim Komutu kullanan kişi hakkında bilgi.
+
+fs!sunucubilgi Sunucu hakkında Tüm bilgileri verir.
+
+fs!nsfw [nsfw kanalı açın] +18 NSFW - Sapik Resimleri Gösteririr.
 
 fs!botsunucu Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın. 
 
@@ -36,6 +40,10 @@ fs!davet Botun Davet Linkini Atar Sunucunuza Ekleyebilirsiniz.
 fs!tavsiye Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim.
 
 fs!yapımcım Botun Yapımcısını Gösterir. 
+
+fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek.`)
+
+.addField('》Eglence Komutları《 ', `
 
 fs!stresçarkı Sizin için bir stres çarkı çevirir.
 
@@ -53,25 +61,19 @@ fs!söv İstediginiz kişiye Söver
 
 fs!nahçek [kime çekem]istediğiniz Kişiye Nah Çekersiniz.
 
-fs!kullanıcıbilgim kbilgim Komutu kullanan kişi hakkında bilgi.`)
-.addField('》fs!sunucubilgi《 ', `
-Sunucu hakkında Tüm bilgileri verir.`)
-.addField('》fs!nsfw《 ', `
-[nsfw kanalı açın] +18 NSFW - Sapik Resimleri Gösteririr.`)
-.addField('》fs!hesapla《 ', `
-Senden Benden Akıllı Hesap Makinesi Belirtilen İşlemi yapar.`)
-.addField('》fs!yaz《 ', `
-İstediğiniz şeyi bota yazdırır. `)
-.addField('》fs!sor《 ', `
-[sorunuz] Bota Soru Sora Bilirsiniz. Şuanlık %100 çalışmayabilir.`)
-.addField('》fs!avatarım《 ', `
-Profil Resminizi Gösterir.`)
-.addField('》fs!servericon《 ', ` 
-Serverinizin Resminizi Gösterir.`)
-.addField('》fs!mcskin《', `
-[minecraft adınız] Minecarft Skininizi Gösterir.`)
-.addField('》fs!mcavatar《 ', `
-[minecraft adınız] Minecraft Avatarınızı Gösterir.`)
+fs!hesapla Senden Benden Akıllı Hesap Makinesi Belirtilen İşlemi yapar.
+
+fs!yaz İstediğiniz şeyi bota 
+
+fs!sor [sorunuz] Bota Soru Sora Bilirsiniz. Şuanlık %100 Çalışmayabilir.	
+
+fs!avatarım Profil Resminizi Gösterir.
+
+fs!servericon Serverinizin Resminizi Gösterir.
+
+fs!mcskin [minecraft adınız] Minecarft Skininizi Gösterir.
+
+fs!mcavatar [minecraft adınız] Minecraft Avatarınızı Gösterir.
 .setColor("RANDOM")
 .setFooter(' -Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP-')
     message.channel.send(embed)
