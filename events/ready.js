@@ -18,13 +18,14 @@ console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + client.
 
     var Games = [
 
-        "fs!yardım 》 fs!davet 《 Davet etmek için",
+        "fs!yardım 》 fs!davet 《 Sunucunuza Davet etmek için.",
         "Bot Davet Linki 》 fs!davet 《 fs!yardım",
         "》 Yep Yeni Özellikler Yakında Sizlerle! 《",
-        "》 fs!davet | fs!yardım | fs!botdavet 《",
+        "》 fs!davet | fs!yardım 《",
 
 
-        `${prefix}yardım | ${client.guilds.size} sunucu | Yeni Komutlar Yakında`
+        `${prefix}yardım | ${client.guilds.size} sunucu | fs!davet`
+        `Şu an ${client.channels.size} Adet kanala | ${client.guilds.size} sunucuya ve | ${client.guilds.reduce}((a, b) => a + b.memberCount, 0).toLocaleString() `
 
 
     ];
