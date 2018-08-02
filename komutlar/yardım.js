@@ -12,7 +12,7 @@ exports.run = (client, message, params) => {
   .addField("**» Kullanıcı Komutları**", `**ŞUANDA BAKIMDA**`)
   .addField("**» Oyun Komutları**", `**ŞUANDA BAKIMDA**`)
   .addField("**» Sunucu Yetkilisi Komutları**", `**ŞUANDA BAKIMDA**`)
-  .addField("**» Botun Ana Komutları**",  `fs!yardım = yardımını gösterir\fs!yardım = yardımını gösterir. `)
+  .addField("**» Botun Ana Komutları**",  `fs!yardım = yardımını gösterir \fs!yardım = yardımını gösterir.`)
   .setFooter('Flamess Bot Güncel Sürüm [ BETA v0.3.1]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
