@@ -41,10 +41,7 @@ fs!tavsiye Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cev
 
 fs!yapımcım Botun Yapımcısını Gösterir. 
 
-fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek. ')
-
-.addField('》Eglence Komutları《 ', `
-.addField('》Eglence Komutları《 ', `
+fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek. 
 
 fs!stresçarkı Sizin için bir stres çarkı çevirir.
 
@@ -66,7 +63,7 @@ fs!hesapla Senden Benden Akıllı Hesap Makinesi Belirtilen İşlemi yapar.
 
 fs!yaz İstediğiniz şeyi bota 
 
-fs!sor [sorunuz] Bota Soru Sora Bilirsiniz. Şuanlık %100 Çalışmayabilir.	
+fs!sor [sorunuz] Bota Soru Sora Bilirsiniz. Şuanlık %100 Çalışmayabilir.
 
 fs!avatarım Profil Resminizi Gösterir.
 
