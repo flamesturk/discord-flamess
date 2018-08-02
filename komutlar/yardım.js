@@ -5,10 +5,10 @@ var prefix = ayarlar.prefix;
 
 exports.run = (client, message, params) => {
   const embedyardim = new Discord.RichEmbed()
-  .setTitle("❯- Flamess Komutlar Menüsü -❮")
+  .setTitle("❯ Flamess Komutlar Menüsü ❮")
   .setDescription('')
   .setColor('RANDOM')
-  .addField("**» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \fs!banned = Dene ve Görvgs! \nvgs!herkesebendençay = Herkese Çay Alırsınız. \nvgs!koş = Koşarsınız.\nvgs!çayiç = Çay İçersiniz. \nvgs!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \nvgs!çayaşekerat = Çaya Şeker Atarsınız. \nvgs!yumruk-at = Yumruk Atarsınız. \nvgs!şanslısayım = Bot Sizin Şanslı Sayınızı Söyler. \nvgs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
+  .addField("**» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \fs!banned = Dene ve Görvgs! \nvgs!kahkaha = Kahkaha \nvgs!herkesebendençay = Herkese Çay Alırsınız. \nvgs!koş = Koşarsınız.\nvgs!çayiç = Çay İçersiniz. \nvgs!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \nvgs!çayaşekerat = Çaya Şeker Atarsınız. \nvgs!yumruk-at = Yumruk Atarsınız. \nvgs!şanslısayım = Bot Sizin Şanslı Sayınızı Söyler. \nvgs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
   .addField("**» Kullanıcı Komutları**", `fs!report = İstediğiniz Kullanıcıyı Reportlarsınız. \fs!kısalt = İstediğiniz Linki Kısaltarak Özelleştire Bilirsiniz. \nvgs!yaz = Bota İsediğinizi Yazdırırsınız. \nvgs!sunucubilgi = Bulunduğunuz Sunucu Hakkında Bilgi Verir. \nvgs!sunucuresmi = Bulunduğunuz Sunucunun Resmin Gösterir. \nvgs!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nvgs!avatarım = Avatarınınızı Gösterir. `)
   .addField("**» Oyun Komutları**", `fs!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız.`)
   .addField("**» Sunucu Yetkilisi Komutları**", `fs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \fs!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nvgs!unban = İstediğiniz Kişinin Yasağını Açar. \nvgs!sustur = İstediğiniz Kişiyi Susturur. \nvgs!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \nvgs!oylama = Oylama Açar. \nvgs!duyuru = Güzel Bir Duyuru Görünümü Sağlar. \nvgs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
