@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \fs!herkesebendençay = Herkese Çay Alırsınız. \fs!koş = Koşarsınız. \fs!yumruk-at = Yumruk Atarsınız. \fs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
+  .addField("**» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \fs!herkesebendençay = Herkese Çay Alırsınız. \fs!koş = Koşarsınız. \fs!yumruk-at = Yumruk Atarsınız. \fs!söv = Bot Etiketlediğiniz Kişiye Söver. `)
   
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
