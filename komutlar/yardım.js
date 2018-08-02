@@ -29,7 +29,6 @@ message.channel.send(embed).then(msg => {
         if(page === pages.length) return;
         page++;
         embed.setDescription(pages[page-1]);
-        embed.setFooter(Sayfa ${page} / ${pages.length})
         msg.edit(embed)
       })
       backwards.on('collect', r => {
