@@ -5,15 +5,15 @@ var prefix = ayarlar.prefix;
 
 exports.run = (client, message, params) => {
   const embedyardim = new Discord.RichEmbed()
-  .setTitle("Komutlar")
+  .setTitle("❯ 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 Komutlar Menüsü ❮")
   .setDescription('')
   .setColor('RANDOM')
-  .addField("**» Eğlence Komutları**", `fs!atatürk = Rastgele Atatürkün Fotoğraflarını Gösterir. \nfs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \fs!banned = Dene ve Görvgs! \fs!kahkaha = Kahkaha Atarsınız \fs!herkesebendençay = Herkese Çay Alırsınız. \fs!koş = Koşarsınız.\fs!çayiç = Çay İçersiniz. \fs!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \fs!çayaşekerat = Çaya Şeker Atarsınız. \fs!yumruk-at = Yumruk Atarsınız. \fs!şanslısayım = Bot Sizin Şanslı Sayınızı Söyler. \fs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
-  .addField("**» Kullanıcı Komutları**", `fs!report = İstediğiniz Kullanıcıyı Reportlarsınız. \nfs!kısalt = İstediğiniz Linki Kısaltarak Özelleştire Bilirsiniz. \nfs!yaz = Bota İsediğinizi Yazdırırsınız. \nfs!sunucubilgi = Bulunduğunuz Sunucu Hakkında Bilgi Verir. \nvgs!sunucuresmi = Bulunduğunuz Sunucunun Resmin Gösterir. \nvgs!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nvgs!avatarım = Avatarınınızı Gösterir. `)
-  .addField("**» Oyun Komutları**", `vfs!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız.`)
-  .addField("**» Sunucu Yetkilisi Komutları**", `fs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nvgs!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nvgs!unban = İstediğiniz Kişinin Yasağını Açar. \nvgs!sustur = İstediğiniz Kişiyi Susturur. \nvgs!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \nvgs!oylama = Oylama Açar. \nvgs!duyuru = Güzel Bir Duyuru Görünümü Sağlar. \nvgs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
-  .addField("**» Botun Ana Komutları**", "fs!yardım = BOT Komutlarını Atar. \nfs!bilgi = BOT Kendisi Hakkında Bilgi Verir. \nfs!ping = BOT Gecikme Süresini Söyler. \nfs!davet = BOT Davet Linkini Atar. \nvgs!istatistik = BOT İstatistiklerini Gösterir. \nvgs!yapımcım = Botun Yapımcısını Gösterir")
-  .setFooter('Flamess Bot Güncel Sürüm [ BETA v0.3.1]')
+  .addField("**❯» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \nfs!herkesebendençay = Herkese Çay Alırsınız. \nfs!koş = Koşarsınız. \nfs!yumruk-at = Yumruk Atarsınız. \nfs!söv = Bot Etiketlediğiniz Kişiye Söver. `)
+  .addField("**❯» Kullanıcı Komutları**", `fs!yaz = Bota İsediğinizi Yazdırırsınız. \nfs!kutuiciyaz = Kutu İçinde Yazarsınız. \nfs!sunucubilgi = Bulunduğunuz Sunucu Hakkında Bilgi Verir. \nfs!sunucuresmi = Bulunduğunuz Sunucunun Resmin Gösterir. \nfs!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nfs!avatarım = Avatarınınızı Gösterir. `)
+  .addField("**❯» Sunucu Yetkilisi Komutları**", `fs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nfs!kick veya at  = İstediğiniz Kişiyi Sunucudan Atar. \nfs!unban = İstediğiniz Kişinin Yasağını Açar. \nfs!temizle = Belirtilen Miktarda Mesajı Siler. \nfs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
+  .addField("**❯» Botun Ana Komutları**", "fs!yardım = Botun Komutlarını Atar. \nfs!bilgi = Botun Kendisi Hakkında Bilgi Verir. \nfs!ping = Botun Gecikme Süresini Söyler. \nfs!davet = BOT Davet Linkini Atar. \nfs!istatistik = Botun İstatistiklerini Gösterir. \nfs!yapımcım = Botun Yapımcısını Gösterir")
+  .addField("**❯» Oyun Komutları**", `fs!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız.`)
+  .setFooter('❯𝓕𝓁𝔞𝔪𝔢𝓈𝓈 Bot Güncel Sürüm [ BETA v0.3.1]❮')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
