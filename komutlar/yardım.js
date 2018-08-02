@@ -1,92 +1,41 @@
-const Discord = require('discord.js')
+const Discord = require('discord.js');
 const ayarlar = require('../ayarlar.json');
 
 var prefix = ayarlar.prefix;
 
-exports.run = (client, message,) => {
-	const embed = new Discord.RichEmbed()
-	                                      .setTitle(' 》 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 - Yardım - Menüsü 《')
-	.addField('》Yetkili Komutları《 ', ` 
- fs!ping Botun Pingini Gösterir. 
+exports.run = (client, message, params) => {
+  const embedyardim = new Discord.RichEmbed()
+  .setTitle("Komutlar")
+  .setDescription('')
+  .setColor(0x00ffff)
+  .addField("**» Eğlence Komutları**", `fs!atatürk = Rastgele Atatürkün Fotoğraflarını Gösterir. \nvgs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \nvgs!banned = Dene ve Görvgs! \nvgs!kahkaha = Kahkaha Atarsınız \nvgs!herkesebendençay = Herkese Çay Alırsınız. \nvgs!koş = Koşarsınız.\nvgs!çayiç = Çay İçersiniz. \nvgs!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \nvgs!çayaşekerat = Çaya Şeker Atarsınız. \nvgs!yumruk-at = Yumruk Atarsınız. \nvgs!şanslısayım = Bot Sizin Şanslı Sayınızı Söyler. \nvgs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
+  .addField("**» Kullanıcı Komutları**", `fs!report = İstediğiniz Kullanıcıyı Reportlarsınız. \nvgs!kısalt = İstediğiniz Linki Kısaltarak Özelleştire Bilirsiniz. \nvgs!yaz = Bota İsediğinizi Yazdırırsınız. \nvgs!sunucubilgi = Bulunduğunuz Sunucu Hakkında Bilgi Verir. \nvgs!sunucuresmi = Bulunduğunuz Sunucunun Resmin Gösterir. \nvgs!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nvgs!avatarım = Avatarınınızı Gösterir. `)
+  .addField("**» Oyun Komutları**", `fs!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız.`)
+  .addField("**» Sunucu Yetkilisi Komutları**", `vgs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nvgs!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nvgs!unban = İstediğiniz Kişinin Yasağını Açar. \nvgs!sustur = İstediğiniz Kişiyi Susturur. \nvgs!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \nvgs!oylama = Oylama Açar. \nvgs!duyuru = Güzel Bir Duyuru Görünümü Sağlar. \nvgs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
+  .addField("**» Botun Ana Komutları**", "fs!yardım = BOT Komutlarını Atar. \nvgs!bilgi = BOT Kendisi Hakkında Bilgi Verir. \nvgs!ping = BOT Gecikme Süresini Söyler. \nvgs!davet = BOT Davet Linkini Atar. \nvgs!istatistik = BOT İstatistiklerini Gösterir. \nvgs!yapımcım = Botun Yapımcısını Gösterir")
+  .setFooter('Flamess Bot Güncel Sürüm [ BETA v0.3.1]')
+  if (!params[0]) {
+    const commandNames = Array.from(client.commands.keys());
+    const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
+    message.channel.send(embedyardim);
+  } else {
+    let command = params[0];
+    if (client.commands.has(command)) {
+      command = client.commands.get(command);
+      message.author.send('', `= ${command.help.name} = \n${command.help.description}\nDoğru kullanım: ` + prefix + `${command.help.usage}`);
+    }
+  }
+};
 
- fs!ban [Sebebi]  [@kişi] - İstediginiz Kişiyi Banlarsınız.    
-
- fs!unban [Sebebi]  [@kişi] - İstediginiz Kişinin Banını Kaldırırsınız. 
-	    
- fs!kick [Sebebi]  [@kişi] - İstediginiz Kişiyi Kickler. Sunucudan Atar. 
-
-fs!kutuiciyaz [Kutu icinde Yazılacak Şey] Kutu icinde Yazarsınız.
-
-fs!istatistik Botun Bilgisini Verir.
-
-fs!ses-kanal-aç [kanalın ismi] Bir ses kanalı açar.
-
-fs!yazı-kanal-aç [kanalın ismi] Bir yazı kanalı açar.
-
-fs!rol-ver [@kime vericeginiz] [@hangirol] Herkese bu rolden @bahsetme yetkisini tanı olmalı İstediğiniz kişiyi istediğiniz rolü verir. 
- 
-fs!temizle [sayı belirtin] Sohbeti Temizler.
-
-fs!kullanıcıbilgim kbilgim Komutu kullanan kişi hakkında bilgi.
-
-fs!sunucubilgi Sunucu hakkında Tüm bilgileri verir.
-
-fs!nsfw [nsfw kanalı açın] +18 NSFW - Sapik Resimleri Gösteririr.
-
-fs!botsunucu Botun Sunucusunun Davet Linkini Atar Gelmeyi Unutmayın. 
-
-fs!davet Botun Davet Linkini Atar Sunucunuza Ekleyebilirsiniz. 
-
-fs!tavsiye Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cevap vericegim.
-
-fs!yapımcım Botun Yapımcısını Gösterir. 
-
-fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek. 
-
-fs!stresçarkı Sizin için bir stres çarkı çevirir.
-
-fs!emojiyazı Mesajınızı emoji haline getirir.
-
-fs!sigara ve fs!sigaraiç Bot Size Sigara İçirir.
-
-fs!yumruk-at Yumruk Atar gif.
- 
-fs!koş Koşarsınız gif.
-
-fs!herkesebendençay Herkese Çay Verir gif.
-
-fs!söv İstediginiz kişiye Söver
-
-fs!nahçek [kime çekem]istediğiniz Kişiye Nah Çekersiniz.
-
-fs!hesapla Senden Benden Akıllı Hesap Makinesi Belirtilen İşlemi yapar.
-
-fs!yaz İstediğiniz şeyi bota 
-
-fs!sor [sorunuz] Bota Soru Sora Bilirsiniz. Şuanlık %100 Çalışmayabilir.
-
-fs!avatarım Profil Resminizi Gösterir.
-
-fs!servericon Serverinizin Resminizi Gösterir.
-
-fs!mcskin [minecraft adınız] Minecarft Skininizi Gösterir.
-
-fs!mcavatar [minecraft adınız] Minecraft Avatarınızı Gösterir.
-.setColor("RANDOM")
-.setFooter(' -Flamess Discord Yardım Menüsü - Discord Adresimiz : https://discord.gg/Ymx5sJP-')
-    message.channel.send(embed)
-	
-}
-
-exports.conf = { 
+exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['h', 'halp', 'help', 'yardim','y','yardım'],
+  aliases: ['h', 'halp', 'help', 'y'],
   permLevel: 0
 };
 
 exports.help = {
   name: 'yardım',
-  description: 'yardım',
-  usage: 'yardım'
+  description: 'Tüm komutları gösterir.',
+  usage: 'yardım [komut]'
 };
