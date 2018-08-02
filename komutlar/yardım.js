@@ -13,7 +13,7 @@ exports.run = (client, message, params) => {
   .addField("**❯» Sunucu Yetkilisi Komutları**", `fs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nfs!kick veya at  = İstediğiniz Kişiyi Sunucudan Atar. \nfs!unban = İstediğiniz Kişinin Yasağını Açar. \nfs!temizle = Belirtilen Miktarda Mesajı Siler. \nfs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
   .addField("**❯» Botun Ana Komutları**", "fs!yardım = Botun Komutlarını Atar. \nfs!bilgi = Botun Kendisi Hakkında Bilgi Verir. \nfs!ping = Botun Gecikme Süresini Söyler. \nfs!tavsiye = Bana Bot ile ilgili Tavsiye verebilirsiniz en yakın zamanda size cevap vericegim.\nfs!davet = Botun Davet Linkini Atar. \nfs!istatistik = Botun İstatistiklerini Gösterir. \nfs!yapımcım = Botun Yapımcısını Gösterir")
   .addField("**❯» Oyun Komutları**", `fs!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız. \nfs!mcskin = Minecraftaki skininizi gösteri \nfs!mcavatar = Minecraft Avatarınızı Gösterir. `)
-  .setFooter('❯𝓕𝓁𝔞𝔪𝔢𝓈𝓈 Bot Güncel Sürüm [ BETA v0.3.1]❮')
+  .setFooter('❯ 𝓕𝓁𝔞𝔪𝔢𝓈𝓈 Bot Güncel Sürüm [ BETA v0.3.1] Discord Sunucumuz : https://discord.gg/Ymx5sJP ❮')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
