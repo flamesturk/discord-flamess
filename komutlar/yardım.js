@@ -8,11 +8,11 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**» Eğlence Komutları**", `**Şuanda Bakımda**`)
+  .addField("**» Eğlence Komutları**", `fs!yardım`)
   .addField("**» Kullanıcı Komutları**", `**ŞUANDA BAKIMDA**`)
-  .addField("**» Oyun Komutları**", `**ŞUANDA BAKIMDA**`)
   .addField("**» Sunucu Yetkilisi Komutları**", `**ŞUANDA BAKIMDA**`)
-  .addField("**» Botun Ana Komutları**",  `fs!yardım = BOT Komutlarını Atar. \fnvgs!bilgi = BOT Kendisi Hakkında Bilgi Verir.`)
+  .addField("**» Botun Ana Komutları**",  `**Şuanda Bakımda**`)
+  .addField("**» Oyun Komutları**", `**ŞUANDA BAKIMDA**`)
   .setFooter('Flamess Bot Güncel Sürüm [ BETA v0.3.1]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
