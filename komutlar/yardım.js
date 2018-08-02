@@ -41,8 +41,9 @@ fs!tavsiye Bot hakkında tavsiye verebilirsiniz. size en yakın zaman icinde cev
 
 fs!yapımcım Botun Yapımcısını Gösterir. 
 
-fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek.`)
+fs!yardım veya fs!y Yardım Menüsünü Gösterir. Bu Menüyü Gösterir - İlerde Gelişecek. ')
 
+.addField('》Eglence Komutları《 ', `
 .addField('》Eglence Komutları《 ', `
 
 fs!stresçarkı Sizin için bir stres çarkı çevirir.
