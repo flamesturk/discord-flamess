@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 exports.run = function(client, message) {
 
     const embed = new Discord.RichEmbed()
-        .setDescription("**SUNUCU ICONU**")
+        .setDescription("**SUNUCU RESMİ**")
         .setImage(message.guild.iconURL)
 
     message.channel.send(embed);
@@ -19,7 +19,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'servericon', 
-  description: 'Serverin iconunu gösterir',
-  usage: 'servericon'
+  name: 'sunucuresmi', 
+  description: 'Sunucunun Resmini Gösterir',
+  usage: 'sunucuresmi'
 };
