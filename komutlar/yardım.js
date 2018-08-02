@@ -12,7 +12,7 @@ exports.run = (client, message, args, tools) => {
 
   const embed = new Discord.RichEmbed()
   .setColor('RANDOM')
-  .setFooter(`Sayfa ${page} / ${pages.length}, "")
+  .setFooter('Sayfa ${page} / ${pages.length}, "")
   .setDescription(pages[page-1])
   .setAuthor("Rick And Morty <3", "")
 message.channel.send(embed).then(msg => {
