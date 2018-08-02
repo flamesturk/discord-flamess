@@ -5,7 +5,7 @@ var prefix = ayarlar.prefix;
 
 exports.run = (client, message, params) => {
   const embedyardim = new Discord.RichEmbed()
-  .setTitle("Komutlar")
+                                                        .setTitle("Flamess  Komutlar  Menüsü")
   .setDescription('')
   .setColor(0x00ffff)
   .addField("**» Eğlence Komutları**", `vgs!atatürk = Rastgele Atatürkün Fotoğraflarını Gösterir. \nvgs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \nvgs!banned = Dene ve Görvgs! \nvgs!kahkaha = Kahkaha Atarsınız \nvgs!herkesebendençay = Herkese Çay Alırsınız. \nvgs!koş = Koşarsınız.\nvgs!çayiç = Çay İçersiniz. \nvgs!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \nvgs!çayaşekerat = Çaya Şeker Atarsınız. \nvgs!yumruk-at = Yumruk Atarsınız. \nvgs!şanslısayım = Bot Sizin Şanslı Sayınızı Söyler. \nvgs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
