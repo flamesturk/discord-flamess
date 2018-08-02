@@ -8,10 +8,10 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**» Eğlence Komutları**", `nvgs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \nvgs!herkesebendençay = Herkese Çay Alırsınız. \nvgs!koş = Koşarsınız.\nvgs!yumruk-at = Yumruk Atarsınız. \nvgs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
-  .addField("**» Kullanıcı Komutları**", `vgs!report = İstediğiniz Kullanıcıyı Reportlarsınız. \nvgs!kısalt = İstediğiniz Linki Kısaltarak Özelleştire Bilirsiniz. \nvgs!yaz = Bota İsediğinizi Yazdırırsınız. \nvgs!sunucubilgi = Bulunduğunuz Sunucu Hakkında Bilgi Verir. \nvgs!sunucuresmi = Bulunduğunuz Sunucunun Resmin Gösterir. \nvgs!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nvgs!avatarım = Avatarınınızı Gösterir. `)
+  .addField("**» Eğlence Komutları**", `vgs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \nvgs!herkesebendençay = Herkese Çay Alırsınız. \nvgs!koş = Koşarsınız.\nvgs!yumruk-at = Yumruk Atarsınız. \nvgs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
+  .addField("**» Kullanıcı Komutları**", `vgs!report = İstediğiniz Kullanıcıyı Reportlarsınız. \nvgs!yaz = Bota İsediğinizi Yazdırırsınız. \nvgs!sunucubilgi = Bulunduğunuz Sunucu Hakkında Bilgi Verir. \nvgs!sunucuresmi = Bulunduğunuz Sunucunun Resmin Gösterir. \nvgs!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \nvgs!avatarım = Avatarınınızı Gösterir. `)
   .addField("**» Oyun Komutları**", `vgs!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız.`)
-  .addField("**» Sunucu Yetkilisi Komutları**", `vgs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nvgs!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nvgs!unban = İstediğiniz Kişinin Yasağını Açar. \nvgs!sustur = İstediğiniz Kişiyi Susturur. \nvgs!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \nvgs!oylama = Oylama Açar. \nvgs!duyuru = Güzel Bir Duyuru Görünümü Sağlar. \nvgs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
+  .addField("**» Sunucu Yetkilisi Komutları**", `vgs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nvgs!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nvgs!unban = İstediğiniz Kişinin Yasağını Açar. \nvgs!sustur = İstediğiniz Kişiyi Susturur. \nvgs!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \nvgs!oylama = Oylama Açar. \fs!kutuiciyaz = Kutu içinde yazı yazarsınız. \nvgs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
   .addField("**» Botun Ana Komutları**", "fs!yardım = BOT Komutlarını Atar. \fnvgs!bilgi = BOT Kendisi Hakkında Bilgi Verir. \nvgs!ping = BOT Gecikme Süresini Söyler. \nvgs!davet = BOT Davet Linkini Atar. \nvgs!istatistik = BOT İstatistiklerini Gösterir. \nvgs!yapımcım = Botun Yapımcısını Gösterir")
   .setFooter('Flamess Bot Güncel Sürüm [ BETA v0.3.1]')
   if (!params[0]) {
