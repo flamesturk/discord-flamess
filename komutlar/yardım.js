@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \nvgs!herkesebendençay = Herkese Çay Alırsınız. `)
+  .addField("**» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \fs!herkesebendençay = Herkese Çay Alırsınız. `)
   .addField("**» Kullanıcı Komutları**", `**ŞUANDA BAKIMDA**`)
   .addField("**» Sunucu Yetkilisi Komutları**", `**ŞUANDA BAKIMDA**`)
   .addField("**» Botun Ana Komutları**",  `**Şuanda Bakımda**`)
