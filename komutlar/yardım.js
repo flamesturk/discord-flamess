@@ -9,6 +9,7 @@ exports.run = (client, message, params) => {
   .setDescription('')
   .setColor('RANDOM')
   .addField("**» Eğlence Komutları**", `fs!starwars = StarWars (Pixel Formatında) Filmini Gösterir. \fs!herkesebendençay = Herkese Çay Alırsınız. \fs!koş = Koşarsınız.\fs!yumruk-at = Yumruk Atarsınız. \fs!söv = Bot Etiketlediğiniz Kişiye Söver.`)
+
   .addField("**» Kullanıcı Komutları**", `fs!report = İstediğiniz Kullanıcıyı Reportlarsınız. \fs!yaz = Bota İsediğinizi Yazdırırsınız. \fs!sunucubilgi = Bulunduğunuz Sunucu Hakkında Bilgi Verir. \fs!sunucuresmi = Bulunduğunuz Sunucunun Resmin Gösterir. \fs!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. \fs!avatarım = Avatarınınızı Gösterir. `)
   .addField("**» Sunucu Yetkilisi Komutları**", `fs!ban = İstediğiniz Kişiyi Sunucudan Banlar. \fs!kick  = İstediğiniz Kişiyi Sunucudan Atar. \fs!unban = İstediğiniz Kişinin Yasağını Açar. \fs!sustur = İstediğiniz Kişiyi Susturur. \fs!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \fs!oylama = Oylama Açar. \fs!kutuiciyaz = Kutu içinde yazı yazarsınız. \fs!rol-ver = İstediğiniz Kişiye Rol Verebilirsiniz`)
   .addField("**» Botun Ana Komutları**", "fs!yardım = BOT Komutlarını Atar. \fs!bilgi = BOT Kendisi Hakkında Bilgi Verir. \fs!ping = BOT Gecikme Süresini Söyler. \fs!davet = BOT Davet Linkini Atar. \fs!istatistik = BOT İstatistiklerini Gösterir. \fs!yapımcım = Botun Yapımcısını Gösterir")
