@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
   let user = message.mentions.users.first();
   let modlog = guild.channels.find('name', 'mod-log');
   if (!modlog) return message.reply('** `mod-log kanalını bulamıyom Serverda. mod-log kanalını Ekle**');
-  if (reason.length < 1) return message.reply('**Kimi Uyarıcam La ?**');
+  if (reason.length < 1) return message.reply('**İsmini Etiketlermisin**');
   if (message.mentions.users.size < 1) return message.reply('**Kime Ceza Verim?**').catch(console.error);
   const embed = new Discord.RichEmbed()
   .setColor(0xff7f00)
