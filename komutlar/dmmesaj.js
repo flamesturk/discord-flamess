@@ -18,12 +18,12 @@ u.sendEmbed(mesajat)
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['duyur'],
+  aliases: ['dmduyuruyap'],
   permLevel: 4
 };
 
 exports.help = {
-  name: 'dmduyuru',
+  name: 'dmduyuruyap',
   description: 'İstediğiniz şeyi bota duyurtur.',
   usage: 'dmduyuru [duyurmak istediğiniz şey]'
 };
