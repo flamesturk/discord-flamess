@@ -130,7 +130,7 @@ client.on('message', message => {
 client.on('message', async message => {
   if (message.content.toLowerCase() === prefix + 'istatistik') {
 const embed = new Discord.RichEmbed()
-            .setTitle("Notech istatistik")
+            .setTitle("İstatistik")
             .setDescription('')
             .setThumbnail(`${client.user.avatarURL}`)
             .setColor("RANDOM")
@@ -204,18 +204,8 @@ client.on('message', msg => {
 	}
 });
 
-client.on("guildMemberAdd", async member => {
-  let log = await db.fetch(`otolog_${member.guild.id}`);
-  let log2 = member.guild.channels.find('id', log)
-  let rol = await db.fetch(`otorol_${member.guild.id}`);
-  let otorol = member.guild.roles.find('id', rol);
-  if (!log) return;
-  if (!log2) return;
-  if (!rol) return;
-  if (!otorol) return;
-  log2.send(`:mega: :5727_GreenTick: \`${member.user.tag}\` adlı kullanıcı aramıza katıldı! \`${otorol.name}\` adlı rol başarıyla verildi.`)
-  member.addRole(otorol)
-});
+
+
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'botdavet') {
@@ -237,7 +227,7 @@ client.reload = command => {
         client.aliases.set(alias, cmd.help.name);
       });
       resolve();
-    } catch (e){
+    } catch (e) 
       reject(e);
     }
   });
