@@ -49,7 +49,7 @@ message.channel.send(embed).then(msg => {
 exports.conf = {
 enabled: true,
 guildOnly: false,
-aliases: ['y','yardim'],
+aliases: ['ymenu','yardim'],
 permLevel: 0
 };
 
